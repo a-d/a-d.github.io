@@ -1,0 +1,22 @@
+<div class="f-page f-cover">
+  <div class="cover-elements">
+
+    <h1>
+      {{site.title}}
+      <span>{{site.description}}</span>
+    </h1>
+
+    <div class="f-cover-story">
+      <div class="img-feat" style="background-image:url('{{ site.header.logo }}');"></div>
+      <span>{{ site.header.sub-title[0] }}</span>
+      {{ site.header.sub-title[1] }}
+    </div>
+
+    <div class="social">
+      {% for social in site.header.social %}
+        <a href="{{ social.url }}">{{ social.name }}</a>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>

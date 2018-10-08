@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% assign categoriesByPriority = site.meta_categories | sort:"priority" %}
+{% for cat in categoriesByPriority %}
+
+  <div class="f-page">
+    <div class="f-title">
+      <h2>{{ cat.description }}</h2>
+    </div>
+    <div class="box wh-page"></div>
+
+    {% assign postsInCategory = site.posts | where_exp:"post","post.categories contains cat.slag" | sort: "priority" %}
+    {% for post in postsInCategory %}
+      {% include post.html %}
+    {% endfor %}
+        
+    <a class="bookmark" href="#/?page={{ forloop.index }}">{{ cat.name }}</a>
+  </div>
+{% endfor %}
