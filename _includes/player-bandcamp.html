@@ -1,0 +1,17 @@
+{% capture href %}
+https://bandcamp.com/EmbeddedPlayer/album={{ include.id }}/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/
+{% endcapture %}
+
+{% capture onload %}
+onload="{% include player-check.js name='bandcamp' url=href %}""
+{% endcapture %}
+
+{% capture style %}
+style=="border: 0; width: 350px; height: {{ include.height }}px; background: url('{{ include.background }}');"
+{% endcapture %}
+
+<iframe
+    {{ style }}
+    {{ onload }}
+    seamless=""
+><a href="http://deafflow.bandcamp.com/album/{{ include.slag }}">{{ include.name }} by DEAF FLOW</a></iframe>

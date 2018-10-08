@@ -1,0 +1,44 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+
+    <div class="assets map backtostart"></div>
+
+    <div id="flipout">
+      <div id="flip" class="container" style="display:none">
+        
+        {% include header.html %}
+
+        {{ content }}
+
+        {% include footer.html %}
+
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(function() {
+        window.jQuery = $;
+        var $container = $( '#flip' );
+        if(!Modernizr.csstransforms3d || !Modernizr.csstransitions || $( window ).width() <= 500 ) {
+          $pages = $container.children().hide();
+          $pages.show();
+        }
+        else {
+          window.xy = $container.flips();
+          $( window ).trigger("statechange.flips");
+          $(".backtostart").on("click", function(e) {
+            var url = location.href;
+            location.href = "#/?page=0";
+          });
+        }
+        $container.show();
+      });	
+    </script>
+    
+  </body>
+</html>
