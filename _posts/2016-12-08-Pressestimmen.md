@@ -1,8 +1,8 @@
 ---
 title:  "Pressestimmen"
 date:   2016-12-08 08:00:00 +0000
-categories: mannschaft
-number: 101
+chapter: mannschaft
+section: 1
 priority: 1
 box:
   dimension:

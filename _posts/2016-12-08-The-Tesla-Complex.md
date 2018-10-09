@@ -1,8 +1,9 @@
 ---
 title:  "The Tesla Complex"
 date:   2016-12-08 07:00:00 +0000
-categories: ladung media
-number: 105
+chapter: ladung
+tags: media
+section: 1
 priority: 2
 box:
   dimension:

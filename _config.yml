@@ -1,6 +1,6 @@
 # Location of collections
 collections:
-  - meta_categories
+  - meta_chapters
 
 exclude:
   - Gemfile

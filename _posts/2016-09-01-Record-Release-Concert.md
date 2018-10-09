@@ -1,8 +1,8 @@
 ---
 title:  "Record Realease Concert"
 date:   2016-09-01 07:00:00 +0000
-categories: kurs
-number: 108
+chapter: kurs
+section: 1
 priority: 4
 box:
   dimension:

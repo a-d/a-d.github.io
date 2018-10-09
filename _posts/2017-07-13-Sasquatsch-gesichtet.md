@@ -1,8 +1,8 @@
 ---
 title: "Sasquatch gesichtet!"
 date: 2017-07-13 07:00:00 +0000
-categories: kurs
-number: 123
+chapter: kurs
+section: 1
 priority: 2
 box:
   dimension:

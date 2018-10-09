@@ -1,8 +1,9 @@
 ---
 title:  "Songs From The Dark Side"
 date:   2016-12-08 07:00:00 +0000
-categories: ladung media
-number: 106
+chapter: ladung
+tags: media
+section: 1
 priority: 3
 box:
   dimension:

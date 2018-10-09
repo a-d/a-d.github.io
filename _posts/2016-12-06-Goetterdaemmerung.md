@@ -1,8 +1,9 @@
 ---
 title:  "Götterdämmerung"
 date:   2016-12-06 07:00:00 +0000
-categories: ladung media
-number: 103
+chapter: ladung
+tags: media
+section: 1
 priority: 1
 box:
   dimension:

@@ -1,8 +1,8 @@
 ---
 title:  "Band Story"
 date:   2016-12-08 07:00:00 +0000
-categories: mannschaft
-number: 102
+chapter: mannschaft
+section: 1
 priority: 3
 box:
   dimension:

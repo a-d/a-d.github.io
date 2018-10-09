@@ -1,8 +1,8 @@
 ---
 title:  "Vergangene Konzerte"
 date:   2016-12-08 07:00:00 +0000
-categories: kurs
-number: 107
+chapter: kurs
+section: 1
 priority: 6
 box:
   dimension:
