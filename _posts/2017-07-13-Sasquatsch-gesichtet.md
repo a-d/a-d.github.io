@@ -2,7 +2,8 @@
 title: "Sasquatch gesichtet!"
 date: 2017-07-13 07:00:00 +0000
 chapter: kurs
-section: 1
+gig: 2017-07-15 22:00:00 +0100
+section: 2
 priority: 2
 box:
   dimension:

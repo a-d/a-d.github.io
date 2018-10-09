@@ -10,7 +10,7 @@ layout: default
     </div>
     <div class="box wh-page"></div>
 
-    {% assign sectionsInChapter = site.posts | where_exp:"post","post.chapter == cat.slag" | group_by:"chapter" %}
+    {% assign sectionsInChapter = site.posts | where_exp:"post","post.chapter == cat.slag" | group_by:"section" %}
     {% for section in sectionsInChapter %}
 
       {% if forloop.index > 1 %}

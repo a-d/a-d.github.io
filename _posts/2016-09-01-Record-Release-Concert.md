@@ -2,7 +2,8 @@
 title:  "Record Realease Concert"
 date:   2016-09-01 07:00:00 +0000
 chapter: kurs
-section: 1
+gig: 2016-12-10 21:00:00 +0100
+section: 2
 priority: 4
 box:
   dimension:
@@ -15,7 +16,6 @@ box:
       width: 50
       height: auto
 ---
-
 **Nachtrag (11.12.2016): Danke, dass ihr da wart! Das war ein toller Abend!**
 
 Die Instrumente sind wieder verladen und das Paddelbot zum Schiff heimgekehrt. Nach dieser Flut folgt nun eine entspannte Ebbe, die Gezeiten machen auch vor uns keinen Halt. Es soll der letzte Ausflug im Jahre 2016 für die Manschaft gewesen sein.

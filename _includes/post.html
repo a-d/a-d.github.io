@@ -58,9 +58,11 @@
 	
   <div class="entry__info">
     <h3 class="entry__title">{{ post.title }}</h3>
+    {% if post.gig %}
     <span class="entry__meta">
-      <time class="entry-date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%d.%m.%Y" }}</time>
+      <time class="entry-date" datetime="{{ post.gig | date_to_xmlschema }}" itemprop="datePublished">{{ post.gig | date: "%d.%m.%Y" }}</time>
     </span>
+    {% endif %}
   </div>
 
 	<div class="entry__content">
