@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Aramisi';
+  src: url(../fonts/aramisi/aramisi.ttf) format('truetype'),
+   url(../fonts/aramisi/aramisi.woff) format('woff');
+}
+
+p {
+  margin: 0 0 0.1em;
+  text-indent: 0.5em;
+}
+#scene > main > section > article > * {
+  margin: 0.8em;
+}
+#scene > main > section > article {
+  font-family: 'Aramisi';
+  overflow: hidden;
+}
+
+#scene > main > section {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 3em;
+}
+
+#scene > main > section > article.h-45 { height:45%; }
+#scene > main > section > article.h-55 { height:55%; }
+/* continue with height and width variations */
+
+
+#scene > main > section:before {
+  display: block;
+  content: attr(data-description);
+  position: absolute;
+  top: 0;
+  left: 1em;
+  font-family: Courier New;
+  font-size: 1.5em;
+  line-height: 2em;
+}

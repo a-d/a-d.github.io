@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  background: black;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+#scene {
+  width: 70%;
+  height: 70%;
+  margin: 5% 5% 5% 5%;
+  perspective: 1000px;
+  transform: rotate(10deg);
+}
+#scene > main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index:1;
+}
+#scene > main > section {
+  position: absolute;
+  color: black;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s 0.5s;
+  transform-style: preserve-3d;
+  transform-origin: left center;
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, from(#FFFFFF), to(#CCCCCC));
+  background: linear-gradient(to bottom right, #fff, #ccc);
+}
+#scene > main > section.active {
+  transform: rotateY(0deg);
+  transition: 1.5s transform;
+  z-index: 1;
+}
+#scene > main > section.flipped {
+  transform: rotateY(-90deg);
+  transition: 1.5s transform;
+  z-index: 2;
+}
+#scene > main > section.active ~ section{
+  opacity: 0;
+}
+#scene > main > section > article {
+  backface-visibility: hidden;
+}
+
+/* iPads (portrait) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .scene {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+  }
+}
+/* added for the buttons */
+
+#next {
+  position: absolute;
+  right: -3em;
+  top: 1em;
+  width: 3em;
+  height: 2em;
+}
+#prev {
+  position: absolute;
+  right: -3em;
+  top: 3em;
+  width: 3em;
+  height: 2em;
+}
