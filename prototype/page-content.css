@@ -4,6 +4,10 @@
    url(../fonts/aramisi/aramisi.woff) format('woff');
 }
 
+body {
+  overflow: hidden;
+}
+
 p {
   margin: 0 0 0.1em;
   text-indent: 0.5em;
@@ -14,12 +18,14 @@ p {
 #scene > main > section > article {
   font-family: 'Aramisi';
   overflow: hidden;
+  margin: 0.6em;
 }
 
 #scene > main > section {
   display: flex;
-  flex-flow: row wrap;
-  padding-top: 3em;
+  flex-direction: column;
+  align-items: strech; /* default */
+  padding-top: 2.5em;
 }
 
 #scene > main > section > article.h-45 { height:45%; }
@@ -36,4 +42,45 @@ p {
   font-family: Courier New;
   font-size: 1.5em;
   line-height: 2em;
+  backface-visibility: hidden;
+}
+
+
+#scene > main > section > article > header a {
+  text-decoration: none;
+  color: #000;
+}
+
+#scene > main > section > article:not(:hover) {
+  flex-shrink: 3;
+  color:#666;
+}
+#scene > main > section > article:not(:target) {
+  flex-shrink: 3;
+}
+#scene > main > section > article:hover,
+#scene > main > section > article:target {
+  outline: 1px solid #ccc;
+  flex-shrink: 1; /* default */
+}
+#scene > main > section > article:hover,
+#scene > main > section > article:target {
+  overflow: auto;
+}
+#scene > main > section > article > header > a.back,
+#scene > main > section > article > header > a.anchor {
+  display:none;
+  float: right;
+  padding: 0 0.5em;
+  font-size: 2em;
+  line-height: 0.5em;
+}
+#scene > main > section > article:target > header > a.back {
+  display: inline-block;
+}
+#scene > main > section > article:not(:target):hover > header > a.anchor {
+  display: inline-block;
+}
+#scene > main > section > article:not(:target):hover {
+  height:100%;
 }

@@ -4,20 +4,20 @@ $('body')
   .on('click', '#next', nextPage)
   .on('click', '#prev', prevPage);
 
-$('.book').on("swipeleft", nextPage);
-$('.book').on("swiperight", prevPage);
+$('main').on("swipeleft", nextPage);
+$('main').on("swiperight", prevPage);
   
 function prevPage() {
   $('.flipped')
     .last()
     .toggleClass('flipped active')
-    .siblings('.page')
+    .siblings('section')
     .removeClass('active');
 }
 
 function nextPage() {
-  $('.active')
+  $('section.active')
     .toggleClass('active flipped')
-    .next('.page')
+    .next('section')
     .addClass('active');
 }
