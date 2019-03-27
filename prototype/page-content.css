@@ -45,6 +45,12 @@ p {
   backface-visibility: hidden;
 }
 
+#scene > main > section > article {
+  transition-property: flex-shrink;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  flex-shrink: 3;
+}
 
 #scene > main > section > article > header a {
   text-decoration: none;
