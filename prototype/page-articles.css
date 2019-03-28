@@ -1,0 +1,62 @@
+#scene > main > section {
+  display: flex;
+  flex-direction: column;
+  align-items: strech; /* default */
+  padding-top: 2.5em;
+}
+#scene > main > section.horizontal {
+  flex-direction: row
+}
+
+#scene > main > section > article.s-1 { flex-shrink:10; }
+#scene > main > section > article.s-2 { flex-shrink:13; }
+#scene > main > section > article.s-3 { flex-shrink:16; }
+#scene > main > section > article.s-4 { flex-shrink:19; }
+#scene > main > section > article.s-5 { flex-shrink:22; }
+
+#scene > main > section > article {
+  transition-property: flex-shrink;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  flex-shrink: 15;
+  color:#666;
+}
+
+#scene > main > section > article > header a {
+  text-decoration: none;
+  color: #000;
+}
+#scene > main > section > article:hover,
+#scene > main > section > article:target {
+  outline: 1px solid #ccc;
+  color:  #000;
+}
+#scene > main > section > article.dynamic:hover {
+  flex-shrink: 10;
+}
+#scene > main > section > article:target {
+  flex-shrink: 1; /* default */
+}
+#scene > main > section > article:hover,
+#scene > main > section > article:target {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#scene > main > section > article > header > a.back,
+#scene > main > section > article > header > a.anchor {
+  display: none;
+  float: right;
+  padding: 0.1em;
+  font-size: 2em;
+  line-height: 0.5em;
+  color: #888;
+}
+#scene > main > section > article > header > a.back:hover,
+#scene > main > section > article > header > a.anchor:hover {
+  color: #333;
+  outline: 1px solid #666;
+}
+#scene > main > section > article:target > header > a.back,
+#scene > main > section > article:not(:target):hover > header > a.anchor {
+  display: inline-block;
+}

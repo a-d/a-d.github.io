@@ -6,6 +6,7 @@
 
 body {
   overflow: hidden;
+  background-color: #444;
 }
 
 p {
@@ -21,18 +22,6 @@ p {
   margin: 0.6em;
 }
 
-#scene > main > section {
-  display: flex;
-  flex-direction: column;
-  align-items: strech; /* default */
-  padding-top: 2.5em;
-}
-
-#scene > main > section > article.h-45 { height:45%; }
-#scene > main > section > article.h-55 { height:55%; }
-/* continue with height and width variations */
-
-
 #scene > main > section:before {
   display: block;
   content: attr(data-description);
@@ -45,48 +34,41 @@ p {
   backface-visibility: hidden;
 }
 
-#scene > main > section > article {
-  transition-property: flex-shrink;
-  transition-duration: 1s;
-  transition-delay: 0s;
-  flex-shrink: 3;
+#scene > nav > ul {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  padding: 0;
+  margin: 0 0 9em -9em;
+  white-space: nowrap;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  height: 2em;
+  font-size: 2vh;
+  width: 20em;
+  display: flex;
+  justify-content: space-evenly;
+  font-style: italic;
+  font-family: Courier New;
+  text-transform: uppercase;
 }
-
-#scene > main > section > article > header a {
+#scene > nav > ul > li {
+  display:inline;
+}
+#scene > nav > ul > li > a {
+  display: inline-block;
+  background: #ccc;
+  border-radius: 0.8em 2em 0 0;
+  padding: 0 1em;
+  -webkit-box-shadow: inset 0px 4px 5px 0px rgba(0,0,0,0.50);
+  -moz-box-shadow: inset 0px 4px 5px 0px rgba(0,0,0,0.50);
+  box-shadow: inset 0px 4px 5px 0px rgba(0,0,0,0.50);
   text-decoration: none;
-  color: #000;
-}
-
-#scene > main > section > article:not(:hover) {
-  flex-shrink: 3;
-  color:#666;
-}
-#scene > main > section > article:not(:target) {
-  flex-shrink: 3;
-}
-#scene > main > section > article:hover,
-#scene > main > section > article:target {
-  outline: 1px solid #ccc;
-  flex-shrink: 1; /* default */
-}
-#scene > main > section > article:hover,
-#scene > main > section > article:target {
-  overflow: auto;
-}
-#scene > main > section > article > header > a.back,
-#scene > main > section > article > header > a.anchor {
-  display:none;
-  float: right;
-  padding: 0 0.5em;
-  font-size: 2em;
-  line-height: 0.5em;
-}
-#scene > main > section > article:target > header > a.back {
-  display: inline-block;
-}
-#scene > main > section > article:not(:target):hover > header > a.anchor {
-  display: inline-block;
-}
-#scene > main > section > article:not(:target):hover {
-  height:100%;
+  color: #111;
+  height: 100%;
+  padding: 0 1em 0;
+  line-height: 3em;
 }

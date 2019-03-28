@@ -3,17 +3,21 @@ html {
   overflow: hidden;
 }
 body {
-  background: black;
+  position: absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  top:0;
+  padding: 0;
   margin: 0;
-  width: 100%;
-  height: 100%;
 }
 #scene {
-  width: 70%;
-  height: 70%;
-  margin: 5% 5% 5% 5%;
+  width: 85%;
+  height: 85%;
+  margin: 0% 5% 5% 5%;
   perspective: 1000px;
-  transform: rotate(10deg);
+  transform: rotate(-7deg);
+  position: fixed;
 }
 #scene > main {
   position: relative;
@@ -48,6 +52,7 @@ body {
 }
 #scene > main > section > article {
   backface-visibility: hidden;
+  position: relative;
 }
 
 /* iPads (portrait) ----------- */
