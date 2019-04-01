@@ -1,26 +1,60 @@
 #scene > main > section {
-  display: flex;
-  flex-direction: column;
-  align-items: strech; /* default */
-  padding-top: 2.5em;
+  display: block;
+  padding-top: 8vmin;
 }
-#scene > main > section.horizontal {
-  flex-direction: row
-}
-
-#scene > main > section > article.s-1 { flex-shrink:10; }
-#scene > main > section > article.s-2 { flex-shrink:13; }
-#scene > main > section > article.s-3 { flex-shrink:16; }
-#scene > main > section > article.s-4 { flex-shrink:19; }
-#scene > main > section > article.s-5 { flex-shrink:22; }
-
 #scene > main > section > article {
-  transition-property: flex-shrink;
+  transition-property: height width opacity;
   transition-duration: 1s;
   transition-delay: 0s;
-  flex-shrink: 15;
   color:#666;
 }
+
+section > article {
+  width:100%;
+  height:100%;
+  opacity: 1;
+}
+section.vertical > article.s-1,
+section.vertical > article.s-9 + article { height:10%; }
+section.vertical > article.s-2,
+section.vertical > article.s-8 + article { height:20%; }
+section.vertical > article.s-3,
+section.vertical > article.s-7 + article { height:30%; }
+section.vertical > article.s-4,
+section.vertical > article.s-6 + article { height:40%; }
+section.vertical > article.s-5,
+section.vertical > article.s-5 + article { height:50%; }
+section.vertical > article.s-6,
+section.vertical > article.s-4 + article { height:60%; }
+section.vertical > article.s-7,
+section.vertical > article.s-3 + article { height:70%; }
+section.vertical > article.s-8,
+section.vertical > article.s-2 + article { height:80%; }
+section.vertical > article.s-9,
+section.vertical > article.s-1 + article { height:90%; }
+
+section.horizontal > article.s-1,
+section.horizontal > article.s-9 + article  { width:10%; }
+section.horizontal > article.s-2,
+section.horizontal > article.s-8 + article  { width:20%; }
+section.horizontal > article.s-3,
+section.horizontal > article.s-7 + article  { width:30%; }
+section.horizontal > article.s-4,
+section.horizontal > article.s-6 + article  { width:40%; }
+section.horizontal > article.s-5,
+section.horizontal > article.s-5 + article  { width:50%; }
+section.horizontal > article.s-6,
+section.horizontal > article.s-4 + article  { width:60%; }
+section.horizontal > article.s-7,
+section.horizontal > article.s-3 + article  { width:70%; }
+section.horizontal > article.s-8,
+section.horizontal > article.s-2 + article  { width:80%; }
+section.horizontal > article.s-9,
+section.horizontal > article.s-1 + article  { width:90%; }
+
+#scene > main > section.vertical.focus article { height:0; }
+#scene > main > section.horizontal.focus article { width:0; }
+#scene > main > section.focus > article:target { height:100%; width:100%; }
 
 #scene > main > section > article > header a {
   text-decoration: none;
@@ -31,17 +65,14 @@
   outline: 1px solid #ccc;
   color:  #000;
 }
-#scene > main > section > article.dynamic:hover {
-  flex-shrink: 10;
+
+#scene > main > section.flipped > article {
+  opacity: 0;
 }
-#scene > main > section > article:target {
-  flex-shrink: 1; /* default */
-}
-#scene > main > section > article:hover,
-#scene > main > section > article:target {
-  overflow-y: auto;
-  overflow-x: hidden;
-}
+
+/*
+ * Zoom
+ */
 #scene > main > section > article > header > a.back,
 #scene > main > section > article > header > a.anchor {
   display: none;
@@ -54,7 +85,6 @@
 #scene > main > section > article > header > a.back:hover,
 #scene > main > section > article > header > a.anchor:hover {
   color: #333;
-  outline: 1px solid #666;
 }
 #scene > main > section > article:target > header > a.back,
 #scene > main > section > article:not(:target):hover > header > a.anchor {

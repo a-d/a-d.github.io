@@ -19,7 +19,6 @@ p {
 #scene > main > section > article {
   font-family: 'Aramisi';
   overflow: hidden;
-  margin: 0.6em;
 }
 
 #scene > main > section:before {
@@ -29,17 +28,19 @@ p {
   top: 0;
   left: 1em;
   font-family: Courier New;
-  font-size: 1.5em;
+  font-size: 5vmin;
   line-height: 2em;
   backface-visibility: hidden;
+  overflow: hidden;
+  height: 1.5em;
 }
 
-#scene > nav > ul {
+#scene > nav {
   position: absolute;
   bottom: 0;
   left: 100%;
   padding: 0;
-  margin: 0 0 9em -9em;
+  margin: 0 0 11em -9em;
   white-space: nowrap;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -54,6 +55,11 @@ p {
   font-style: italic;
   font-family: Courier New;
   text-transform: uppercase;
+}
+#scene > nav > ul {
+  display:inline;
+  margin:0 3em 0 0;
+  padding:0;
 }
 #scene > nav > ul > li {
   display:inline;

@@ -14,7 +14,7 @@ body {
 #scene {
   width: 85%;
   height: 85%;
-  margin: 0% 5% 5% 5%;
+  margin: 0% 5% 5% 2%;
   perspective: 1000px;
   transform: rotate(-7deg);
   position: fixed;
@@ -63,20 +63,4 @@ body {
     height: 90%;
     margin: 5%;
   }
-}
-/* added for the buttons */
-
-#next {
-  position: absolute;
-  right: -3em;
-  top: 1em;
-  width: 3em;
-  height: 2em;
-}
-#prev {
-  position: absolute;
-  right: -3em;
-  top: 3em;
-  width: 3em;
-  height: 2em;
 }
