@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Aramisi';
-  src: url(../fonts/aramisi/aramisi.ttf) format('truetype'),
-   url(../fonts/aramisi/aramisi.woff) format('woff');
+  src: url(http://deafflow.com/fonts/aramisi/aramisi.ttf) format('truetype'),
+   url(http://deafflow.com/fonts/aramisi/aramisi.woff) format('woff');
 }
 
 body {

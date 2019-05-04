@@ -157,6 +157,9 @@ nav .pagination .next {
   overflow:hidden;
   color:#463838;
 }
+#scene > main > section.cover > article:hover {
+  outline:0px;
+}
 #scene > main > section.cover > article > h1 {
   font-size: 2em;
   margin: 0;
@@ -195,7 +198,6 @@ nav .pagination .next {
   text-decoration: underline;
 }
 #scene > main > section.cover::before {
-  background-color: red;
   background: #b6a784 url('../images-layout/mappe01-front0.png');
   background-size: cover;
   background-position-y: center;
