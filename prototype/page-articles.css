@@ -20,6 +20,39 @@ section > article {
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
 }
+
+
+section.horizontal > article:first-child:nth-last-child(1) {
+  width: 100%;
+}
+section.horizontal > article:first-child:nth-last-child(2),
+section.horizontal > article:first-child:nth-last-child(2) ~ article {
+  width: 50%;
+}
+section.horizontal > article:first-child:nth-last-child(3),
+section.horizontal > article:first-child:nth-last-child(3) ~ article {
+  width: 33.3333%;
+}
+section.horizontal > article:first-child:nth-last-child(4),
+section.horizontal > article:first-child:nth-last-child(4) ~ article {
+  width: 25%;
+}
+section.vertical > article:first-child:nth-last-child(1) {
+  height: 100%;
+}
+section.vertical > article:first-child:nth-last-child(2),
+section.vertical > article:first-child:nth-last-child(2) ~ article {
+  height: 50%;
+}
+section.vertical > article:first-child:nth-last-child(3),
+section.vertical > article:first-child:nth-last-child(3) ~ article {
+  height: 33.3333%;
+}
+section.vertical > article:first-child:nth-last-child(4),
+section.vertical > article:first-child:nth-last-child(4) ~ article {
+  height: 25%;
+}
+
 section.vertical > article.s-1,
 section.vertical > article.s-9 + article { height:10%; }
 section.vertical > article.s-2,

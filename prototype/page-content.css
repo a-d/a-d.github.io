@@ -66,14 +66,14 @@ p {
 }
 #scene > nav > ul > li > a {
   display: inline-block;
-  background: #ccc;
+  background: #aa966d;
   border-radius: 0.8em 2em 0 0;
   padding: 0 1em;
   -webkit-box-shadow: inset 0px 4px 5px 0px rgba(0,0,0,0.50);
   -moz-box-shadow: inset 0px 4px 5px 0px rgba(0,0,0,0.50);
   box-shadow: inset 0px 4px 5px 0px rgba(0,0,0,0.50);
   text-decoration: none;
-  color: #111;
+  color: #2f1515;
   height: 100%;
   padding: 0 1em 0;
   line-height: 3em;
