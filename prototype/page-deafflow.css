@@ -22,8 +22,9 @@ article {
   background-size: 1px 300%;
 }
 
-article > header h1 {
+article > header h2 {
   margin:0;
+  font-size: 1.2em;
 }
 article > header time {
   color:#888;
@@ -156,11 +157,11 @@ nav .pagination .next {
 #scene > main > section.cover > article:hover {
   outline:0px;
 }
-#scene > main > section.cover > article > h1 {
+#scene > main > section.cover > article > h2 {
   font-size: 2em;
   margin: 0;
 }
-#scene > main > section.cover > article > h2 {
+#scene > main > section.cover > article > h3 {
   font-size: 1em;
   margin: 0;
 }
