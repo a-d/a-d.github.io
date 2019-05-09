@@ -128,10 +128,6 @@ article::-webkit-scrollbar-thumb
 #scene > main > section > article > header > a.anchor {
   display:none !important;
 }
-.clickable {
-  cursor:pointer;
-}
-
 
 /*
  * pagination

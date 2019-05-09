@@ -129,7 +129,3 @@ section.horizontal > article.s-1 + article  { width:90%; }
 #scene > main > section > article > header > a.anchor:hover {
   color: #333;
 }
-#scene > main > section > article:target > header > a.back,
-#scene > main > section > article:not(:target):hover > header > a.anchor {
-  display: inline-block;
-}

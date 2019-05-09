@@ -28,8 +28,7 @@ var nextPage = function() {
 }
 $('nav .pagination .next').on('click', nextPage);
 $('nav .pagination .prev').on('click', prevPage);
-$('main').on("swipeleft", nextPage);
-$('main').on("swiperight", prevPage);
+$('main').on("swipeleft", nextPage).on("swiperight", prevPage);
 
 /*
  * article and Page jumper
@@ -74,16 +73,14 @@ evaluateHash();
 /*
  * add handler for header click
  */
-$('article > header, article > img.img-feat')
-  .addClass("clickable")
-  .on("click",
+$('article')
+  .on("tap",
     function(event) {
-      if( !$(event.target).is('a[href]') ) {
-        console.log(event);
-        var article = $(this).parent();
+      console.log(event);
+      var article = $(this);
+      if( article.parent().hasClass("active") ) {
         var linkSelector = article.is(':target') ? 'header > a.back' : 'header > a.anchor';
         window.location.hash = article.find(linkSelector).attr("href");
       }
     }
   );
-
