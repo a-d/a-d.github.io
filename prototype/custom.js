@@ -1,3 +1,16 @@
+/*
+ * helper functions
+ */
+var throttle = function(func, interval) {
+  var lastCall = 0;
+  return function() {
+      var now = Date.now();
+      if (lastCall + interval < now) {
+          lastCall = now;
+          return func.apply(this, arguments);
+      }
+  };
+}
 
 /*
  * globals
@@ -74,13 +87,10 @@ evaluateHash();
  * add handler for header click
  */
 $('article')
-  .on("tap",
-    function(event) {
-      console.log(event);
-      var article = $(this);
-      if( article.parent().hasClass("active") ) {
-        var linkSelector = article.is(':target') ? 'header > a.back' : 'header > a.anchor';
-        window.location.hash = article.find(linkSelector).attr("href");
-      }
+  .on("tap",throttle(function() {
+    var article = $(this);
+    if( article.parent().hasClass("active") ) {
+      var linkSelector = article.is(':target') ? 'header > a.back' : 'header > a.anchor';
+      window.location.hash = article.find(linkSelector).attr("href");
     }
-  );
+  }, 500));
