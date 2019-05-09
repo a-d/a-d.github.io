@@ -22,77 +22,86 @@ section > article {
 }
 
 
-section.horizontal > article:first-child:nth-last-child(1) {
-  width: 100%;
-}
-section.horizontal > article:first-child:nth-last-child(2),
-section.horizontal > article:first-child:nth-last-child(2) ~ article {
-  width: 50%;
-}
-section.horizontal > article:first-child:nth-last-child(3),
-section.horizontal > article:first-child:nth-last-child(3) ~ article {
-  width: 33.3333%;
-}
-section.horizontal > article:first-child:nth-last-child(4),
-section.horizontal > article:first-child:nth-last-child(4) ~ article {
-  width: 25%;
-}
-section.vertical > article:first-child:nth-last-child(1) {
-  height: 100%;
-}
-section.vertical > article:first-child:nth-last-child(2),
-section.vertical > article:first-child:nth-last-child(2) ~ article {
-  height: 50%;
-}
-section.vertical > article:first-child:nth-last-child(3),
-section.vertical > article:first-child:nth-last-child(3) ~ article {
-  height: 33.3333%;
-}
-section.vertical > article:first-child:nth-last-child(4),
-section.vertical > article:first-child:nth-last-child(4) ~ article {
-  height: 25%;
+
+
+@media all and (orientation:portrait) {
+  section > article:first-child:nth-last-child(1) {
+    height: 100%;
+  }
+  section > article:first-child:nth-last-child(2),
+  section > article:first-child:nth-last-child(2) ~ article {
+    height: 50%;
+  }
+  section > article:first-child:nth-last-child(3),
+  section > article:first-child:nth-last-child(3) ~ article {
+    height: 33.3333%;
+  }
+  section > article:first-child:nth-last-child(4),
+  section > article:first-child:nth-last-child(4) ~ article {
+    height: 25%;
+  }
+
+  section > article.s-1,
+  section > article.s-9 + article { height:10%; }
+  section > article.s-2,
+  section > article.s-8 + article { height:20%; }
+  section > article.s-3,
+  section > article.s-7 + article { height:30%; }
+  section > article.s-4,
+  section > article.s-6 + article { height:40%; }
+  section > article.s-5,
+  section > article.s-5 + article { height:50%; }
+  section > article.s-6,
+  section > article.s-4 + article { height:60%; }
+  section > article.s-7,
+  section > article.s-3 + article { height:70%; }
+  section > article.s-8,
+  section > article.s-2 + article { height:80%; }
+  section > article.s-9,
+  section > article.s-1 + article { height:90%; }
+
+  #scene > main > section.focus article { height:0; }
 }
 
-section.vertical > article.s-1,
-section.vertical > article.s-9 + article { height:10%; }
-section.vertical > article.s-2,
-section.vertical > article.s-8 + article { height:20%; }
-section.vertical > article.s-3,
-section.vertical > article.s-7 + article { height:30%; }
-section.vertical > article.s-4,
-section.vertical > article.s-6 + article { height:40%; }
-section.vertical > article.s-5,
-section.vertical > article.s-5 + article { height:50%; }
-section.vertical > article.s-6,
-section.vertical > article.s-4 + article { height:60%; }
-section.vertical > article.s-7,
-section.vertical > article.s-3 + article { height:70%; }
-section.vertical > article.s-8,
-section.vertical > article.s-2 + article { height:80%; }
-section.vertical > article.s-9,
-section.vertical > article.s-1 + article { height:90%; }
+@media all and (orientation:landscape) {
+  section > article:first-child:nth-last-child(1) {
+    width: 100%;
+  }
+  section > article:first-child:nth-last-child(2),
+  section > article:first-child:nth-last-child(2) ~ article {
+    width: 50%;
+  }
+  section > article:first-child:nth-last-child(3),
+  section > article:first-child:nth-last-child(3) ~ article {
+    width: 33.3333%;
+  }
+  section > article:first-child:nth-last-child(4),
+  section > article:first-child:nth-last-child(4) ~ article {
+    width: 25%;
+  }
 
-section.horizontal > article.s-1,
-section.horizontal > article.s-9 + article  { width:10%; }
-section.horizontal > article.s-2,
-section.horizontal > article.s-8 + article  { width:20%; }
-section.horizontal > article.s-3,
-section.horizontal > article.s-7 + article  { width:30%; }
-section.horizontal > article.s-4,
-section.horizontal > article.s-6 + article  { width:40%; }
-section.horizontal > article.s-5,
-section.horizontal > article.s-5 + article  { width:50%; }
-section.horizontal > article.s-6,
-section.horizontal > article.s-4 + article  { width:60%; }
-section.horizontal > article.s-7,
-section.horizontal > article.s-3 + article  { width:70%; }
-section.horizontal > article.s-8,
-section.horizontal > article.s-2 + article  { width:80%; }
-section.horizontal > article.s-9,
-section.horizontal > article.s-1 + article  { width:90%; }
+  section > article.s-1,
+  section > article.s-9 + article  { width:10%; }
+  section > article.s-2,
+  section > article.s-8 + article  { width:20%; }
+  section > article.s-3,
+  section > article.s-7 + article  { width:30%; }
+  section > article.s-4,
+  section > article.s-6 + article  { width:40%; }
+  section > article.s-5,
+  section > article.s-5 + article  { width:50%; }
+  section > article.s-6,
+  section > article.s-4 + article  { width:60%; }
+  section > article.s-7,
+  section > article.s-3 + article  { width:70%; }
+  section > article.s-8,
+  section > article.s-2 + article  { width:80%; }
+  section > article.s-9,
+  section > article.s-1 + article  { width:90%; }
 
-#scene > main > section.vertical.focus article { height:0; }
-#scene > main > section.horizontal.focus article { width:0; }
+  #scene > main > section.focus article { width:0; }
+}
+
 #scene > main > section.focus > article:target { height:100%; width:100%; }
 
 #scene > main > section > article > header a {
