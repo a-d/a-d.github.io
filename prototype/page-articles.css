@@ -41,29 +41,52 @@ section > article {
     height: 25%;
   }
 
-  section > article.s-1,
-  section > article.s-9 + article { height:10%; }
-  section > article.s-2,
-  section > article.s-8 + article { height:20%; }
-  section > article.s-3,
-  section > article.s-7 + article { height:30%; }
-  section > article.s-4,
-  section > article.s-6 + article { height:40%; }
-  section > article.s-5,
-  section > article.s-5 + article { height:50%; }
-  section > article.s-6,
-  section > article.s-4 + article { height:60%; }
-  section > article.s-7,
-  section > article.s-3 + article { height:70%; }
-  section > article.s-8,
-  section > article.s-2 + article { height:80%; }
-  section > article.s-9,
-  section > article.s-1 + article { height:90%; }
+  #scene section > article.s-1,
+  #scene section > article.s-9 + article { height:10%; }
+  #scene section > article.s-2,
+  #scene section > article.s-8 + article { height:20%; }
+  #scene section > article.s-3,
+  #scene section > article.s-7 + article { height:30%; }
+  #scene section > article.s-4,
+  #scene section > article.s-6 + article { height:40%; }
+  #scene section > article.s-5,
+  #scene section > article.s-5 + article { height:50%; }
+  #scene section > article.s-6,
+  #scene section > article.s-4 + article { height:60%; }
+  #scene section > article.s-7,
+  #scene section > article.s-3 + article { height:70%; }
+  #scene section > article.s-8,
+  #scene section > article.s-2 + article { height:80%; }
+  #scene section > article.s-9,
+  #scene section > article.s-1 + article { height:90%; }
 
-  #scene > main > section.focus article { height:0; }
+  #scene > main > section.focus article {
+    height:0;
+    overflow-y:hidden;
+  }
 }
 
 @media all and (orientation:landscape) {
+
+  #scene section > article.s-1,
+  #scene section > article.s-9 + article  { width:10%; }
+  #scene section > article.s-2,
+  #scene section > article.s-8 + article  { width:20%; }
+  #scene section > article.s-3,
+  #scene section > article.s-7 + article  { width:30%; }
+  #scene section > article.s-4,
+  #scene section > article.s-6 + article  { width:40%; }
+  #scene section > article.s-5,
+  #scene section > article.s-5 + article  { width:50%; }
+  #scene section > article.s-6,
+  #scene section > article.s-4 + article  { width:60%; }
+  #scene section > article.s-7,
+  #scene section > article.s-3 + article  { width:70%; }
+  #scene section > article.s-8,
+  #scene section > article.s-2 + article  { width:80%; }
+  #scene section > article.s-9,
+  #scene section > article.s-1 + article  { width:90%; }
+
   section > article:first-child:nth-last-child(1) {
     width: 100%;
   }
@@ -79,27 +102,10 @@ section > article {
   section > article:first-child:nth-last-child(4) ~ article {
     width: 25%;
   }
-
-  section > article.s-1,
-  section > article.s-9 + article  { width:10%; }
-  section > article.s-2,
-  section > article.s-8 + article  { width:20%; }
-  section > article.s-3,
-  section > article.s-7 + article  { width:30%; }
-  section > article.s-4,
-  section > article.s-6 + article  { width:40%; }
-  section > article.s-5,
-  section > article.s-5 + article  { width:50%; }
-  section > article.s-6,
-  section > article.s-4 + article  { width:60%; }
-  section > article.s-7,
-  section > article.s-3 + article  { width:70%; }
-  section > article.s-8,
-  section > article.s-2 + article  { width:80%; }
-  section > article.s-9,
-  section > article.s-1 + article  { width:90%; }
-
-  #scene > main > section.focus article { width:0; }
+  #scene > main > section.focus article {
+    width:0;
+    overflow-y:hidden;
+  }
 }
 
 #scene > main > section.focus > article:target { height:100%; width:100%; }
@@ -112,6 +118,7 @@ section > article {
 #scene > main > section > article:target {
   outline: 1px solid #ccc;
   color:  #000;
+  overflow-y: auto;
 }
 
 #scene > main > section.flipped > article {
