@@ -36,10 +36,10 @@ article > header time {
   
 }
 
-article > img.img-feat.img-left {
+article > img.img-left {
   float: left;
 }
-article > img.img-feat.img-right {
+article > img.img-right {
   float: right;
 }
 article > img.img-feat.img-top {
@@ -92,6 +92,7 @@ article > img.img-size-90 {
   background: -webkit-linear-gradient(45deg, rgba(255,255,255,0) 35%,rgba(255,255,255,0.98) 99%,rgba(255,255,255,1) 100%);
   background: linear-gradient(45deg, rgba(255,255,255,0) 35%,rgba(255,255,255,0.98) 99%,rgba(255,255,255,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 );
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 
