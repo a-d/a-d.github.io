@@ -158,11 +158,11 @@ nav .pagination .next {
 #scene > main > section.cover > article:hover {
   outline:0px;
 }
-#scene > main > section.cover > article > h2 {
+#scene > main > section.cover > article > h1 {
   font-size: 2em;
   margin: 0;
 }
-#scene > main > section.cover > article > h3 {
+#scene > main > section.cover > article > h2  {
   font-size: 1em;
   margin: 0;
 }

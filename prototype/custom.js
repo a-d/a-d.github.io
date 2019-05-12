@@ -91,8 +91,11 @@ $('article')
     var article = $(this);
     var section = article.parent();
     if( section.hasClass("active") ) {
-      window.location.hash = article.is(':target')
+      var anchor = article.is(':target')
         ? section.attr("data-category") + "-" + section.attr("data-category-page")
-        : article.find('header > a.anchor').attr("href");;
+        : article.find('header > a.anchor').attr("href");
+      if( anchor ) {
+        window.location.hash = anchor;
+      }
     }
   }, 500));
