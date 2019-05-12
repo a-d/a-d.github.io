@@ -196,7 +196,7 @@ nav .pagination .next {
   text-decoration: underline;
 }
 #scene > main > section.cover::before {
-  background: #b6a784 url('../images-layout/mappe01-front0.png');
+  background: #b6a784 url('../images-layout/mappe01-front0.jpg');
   background-size: cover;
   background-position-y: center;
   position: absolute;

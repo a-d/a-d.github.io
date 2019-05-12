@@ -89,8 +89,10 @@ evaluateHash();
 $('article')
   .on("tap",throttle(function() {
     var article = $(this);
-    if( article.parent().hasClass("active") ) {
-      var linkSelector = article.is(':target') ? 'header > a.back' : 'header > a.anchor';
-      window.location.hash = article.find(linkSelector).attr("href");
+    var section = article.parent();
+    if( section.hasClass("active") ) {
+      window.location.hash = article.is(':target')
+        ? section.attr("data-category") + "-" + section.attr("data-category-page")
+        : article.find('header > a.anchor').attr("href");;
     }
   }, 500));
