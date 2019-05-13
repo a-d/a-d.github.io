@@ -1,0 +1,21 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+  {% include html-head.html %}
+  <body>
+
+    <div id="scene">
+      <main class="book">
+        {% include book-cover.html %}
+        {{ content }}
+      </main>  
+      {% include book-nav.html %}
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/jquery.mobile.custom.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

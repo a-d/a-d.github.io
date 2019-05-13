@@ -3,17 +3,12 @@ title:  "Pressestimmen"
 date:   2016-12-08 08:00:00 +0000
 chapter: mannschaft
 section: 1
-priority: 1
+priority: 2
 box:
-  dimension:
-    width: 100
-    height: 55
+  size: 6
   image:
     src: content-images/promolive-300x249.jpg
     position: left
-    scaling:
-      width: 30
-      height: auto
 ---
 
 Visions Magazin 11/2014

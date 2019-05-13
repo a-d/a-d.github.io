@@ -3,17 +3,11 @@ title:  "Vergangene Konzerte"
 date:   2016-12-08 07:00:00 +0000
 chapter: kurs
 section: 2
-priority: 6
+priority: 1
 box:
-  dimension:
-    width: 45
-    height: 70
   image:
     src: content-images/promolive2-300x163.jpg
     position: top
-    scaling:
-      width: auto
-      height: 20
 ---
 
 Das alte Schiff _Deaf Flow_ hat bereits viele Meere bereist. Unser Geschichten­erzähler und Schiffs­schreiber hat die vergangenen Erfahrungen einmal in einer fiebergeplakten Vollmondnacht auf Papier gebannt.

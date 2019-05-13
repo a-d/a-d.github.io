@@ -4,17 +4,7 @@ date:   2016-12-06 07:00:00 +0000
 chapter: ladung
 tags: media
 section: 1
-priority: 1
-box:
-  dimension:
-    width: 100
-    height: 50
-  image:
-    src: content-images/cdgoetter-300x300.jpg
-    position: left
-    scaling:
-      width: 30
-      height: auto
+priority: 3
 ---
 
 "Doom fickt gut“ wissen die drei Jungs von _Deaf Flow_, aber leider kann man nicht dazu tanzen. Darum machen die Berliner eingängigen und tanzbaren Heavy-Rock mit Stoner-Einschlag, den sie „Disco-Doom“ getauft haben.

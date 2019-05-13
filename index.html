@@ -1,33 +1,28 @@
 ---
-layout: default
+layout: html-book
 ---
 {% assign chapterByPriority = site.meta_chapters | sort:"priority" %}
-{% for cat in chapterByPriority %}
+{% for chapter in chapterByPriority %}
 
-  <div class="f-page">
-    <div class="f-title">
-      <h2>{{ cat.description }}</h2>
-    </div>
-    <div class="box wh-page"></div>
-
-    {% assign sectionsInChapter = site.posts | where_exp:"post","post.chapter == cat.slag" | group_by:"section" %}
+  <!-- {{ chapter.name }} -->
+    {% assign sectionsInChapter = site.posts | where_exp:"post","post.chapter == chapter.slag" | group_by:"section" | reverse %}
     {% for section in sectionsInChapter %}
+      {% assign sectionId = forloop.index %}
+      <section
+        data-category="{{ chapter.slag }}"
+        data-category-page="{{ sectionId }}"
+        data-description="{{ chapter.description }}">
 
-      {% if forloop.index > 1 %}
-    </div>
-    <div class="f-page">
-      <div class="f-title">
-        <h2>{{ cat.description }}</h2>
-      </div>
-      <div class="box wh-page"></div>  
-      {% endif %}
+        {% assign sortedPostsInSection = section.items | sort: "priority" | reverse %}
+        {% for post in sortedPostsInSection %}
 
-      {% assign sortedPostsInSection = section.items | sort: "priority" %}
-      {% for post in sortedPostsInSection %}
-        {% include post.html %}
-      {% endfor %}
+          {% capture articleId  %}{{ chapter.slag }}-{{ sectionId }}-{{ post.priority }}{% endcapture %}
+
+          {% include html-article.html
+            id = articleId %}
+        {% endfor %}
+      
+      </section>
+
     {% endfor %}
-        
-    <a class="bookmark" href="#/?page={{ forloop.index }}">{{ cat.name }}</a>
-  </div>
 {% endfor %}

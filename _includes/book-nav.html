@@ -1,0 +1,14 @@
+<nav>
+  <ul class="pagination">
+      <li><a class="next">⇧</a></li>
+      <li><a class="prev">⇩</a></li>
+  </ul>
+  <ul class="quicklinks">
+
+  {% assign chapterByPriority = site.meta_chapters | sort:"priority" %}
+  {% for cat in chapterByPriority %}
+    {% assign lastPostInChapter = site.posts | where_exp:"post","post.chapter == cat.slag" | sort: "section" "last" %}
+    <li><a href="#{{cat.slag}}-{{lastPostInChapter.section}}">{{cat.name}}</a></li>
+  {% endfor %}
+  </ul>
+</nav>
