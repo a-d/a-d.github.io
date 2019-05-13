@@ -200,6 +200,7 @@ nav .pagination .next {
   background-size: cover;
   background-position-y: center;
   position: absolute;
+  backface-visibility: visible;
   top: 0;
   left: 0;
   display: block;
