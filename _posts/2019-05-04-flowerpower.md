@@ -17,7 +17,7 @@ Aber kein Problem, denn dieses Setup garantiert euch den direkt Sound! Und den b
             
 {% include html-image.html
   description="Drummer Cam"
-  srv="content-images/2019-05-04-flowerpower1-1.jpg"
+  src="content-images/2019-05-04-flowerpower1-1.jpg"
   class="img-right" %}
 
 Für unsere Freunde die daheim bleiben müssen, haben wir einen Geheimtipp...
