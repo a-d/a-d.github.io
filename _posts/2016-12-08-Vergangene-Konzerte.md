@@ -2,9 +2,10 @@
 title:  "Vergangene Konzerte"
 date:   2016-12-08 07:00:00 +0000
 chapter: kurs
-section: 2
+section: 1
 priority: 1
 box:
+  size:
   image:
     src: content-images/promolive2-300x163.jpg
     position: top

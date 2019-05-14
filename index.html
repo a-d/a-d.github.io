@@ -5,22 +5,20 @@ layout: html-book
 {% for chapter in chapterByPriority %}
 
   <!-- {{ chapter.name }} -->
-    {% assign sectionsInChapter = site.posts | where_exp:"post","post.chapter == chapter.slag" | group_by:"section" | reverse %}
+    {% assign sectionsInChapter = site.posts | where_exp:"post","post.chapter == chapter.slag" | sort:"section" | reverse | group_by:"section" %}
     {% for section in sectionsInChapter %}
-      {% assign sectionId = forloop.index %}
+      {% assign sectionId = section.name %}
       <section
         data-category="{{ chapter.slag }}"
         data-category-page="{{ sectionId }}"
         data-description="{{ chapter.description }}">
 
-        {% assign sortedPostsInSection = section.items | sort: "priority" | reverse %}
-        {% for post in sortedPostsInSection %}
+        {%- assign sortedPostsInSection = section.items | sort: "priority" | reverse -%}
+        {%- for post in sortedPostsInSection -%}
 
-          {% capture articleId  %}{{ chapter.slag }}-{{ sectionId }}-{{ post.priority }}{% endcapture %}
-
-          {% include html-article.html
-            id = articleId %}
-        {% endfor %}
+          {%- capture articleId  -%}{{ chapter.slag }}-{{ sectionId }}-{{ post.priority }}{%- endcapture -%}
+          {%- include html-article.html id=articleId -%}
+        {%- endfor -%}
       
       </section>
 

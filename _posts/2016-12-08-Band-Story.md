@@ -5,6 +5,7 @@ chapter: mannschaft
 section: 1
 priority: 1
 box:
+  size:
   image:
     src: content-images/promovolksmusik-300x191.jpg
     position: right

@@ -5,6 +5,8 @@ chapter: ladung
 tags: media
 section: 1
 priority: 2
+box:
+  size:
 ---
 
 Say it loud - **DEAF FLOW** is back and proud! High Voltage! Ein elektrischer Schlag ins Gesicht vor dem Leuchtturm der Erkenntnis: Die gerade aufgenommene 6-Track-EP "The Tesla Complex" ist noch warm und steht bereits in den Startlöchern. Die klassischen Einflüße ihrer Anfangstage ließen _Deaf Flow_ auf der neuen Platte hinter sich und kreierten einen eigenen Stil, der moderne Elemente in klassischen Heavy Rock Sound einbindet: Harte aber auch sehr knackige und melodiegetriebene Songs sind das Ergebnis, geprägt von muskulösen Rhythmen, zugkräftigen Melodien und einprägsamen Vokalparts. "Madonna trifft Mastodon" ... "Prince paart sich mit Pearl Jam" und "QOTSA fickt Queen"!

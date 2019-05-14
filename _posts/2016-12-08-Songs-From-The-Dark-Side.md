@@ -5,6 +5,8 @@ chapter: ladung
 tags: media
 section: 1
 priority: 1
+box:
+  size:
 ---
 
 ... of Uranus.

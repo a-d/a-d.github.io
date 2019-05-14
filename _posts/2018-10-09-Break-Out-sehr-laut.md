@@ -10,6 +10,7 @@ box:
   image:
     src: content-images/2018breakout.jpg
     position: left
+    size: 40
 ---
 
 Ahoi! Nach über einem Jahr Landurlaub stechen DEAF FLOW im Oktober wieder in See! Zusammen mit den **[Smoking Thompsons](https://www.facebook.com/smokingthompsons)** haben wir uns einen fabelhaften Gig der besonderen Art geangelt. Begleitet uns nach Tempelhof, dort hört ihr die Sirenen rufen: Denn für euch gibt‘s fette Beute. Die Thompsons servieren ihre neue delikate Platte! Von uns gibt’s als Beilage aufgewärmte und (_Obacht!_) den ein oder anderen ganz frischen Song. Und da ihr akustisch einfach nicht satt zu kriegen seid, schenken die **[Drunken Masters of the Universe](https://www.facebook.com/drunkenmastersoftheuniverse/)** noch einmal kräftig nach.

@@ -6,6 +6,7 @@ gig: 2019-04-21 18:00:00 +0200
 section: 4
 priority: 1
 box:
+  size:
   image:
     src: content-images/2019-mojo-rising.jpg
     position: top

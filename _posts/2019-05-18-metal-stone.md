@@ -6,6 +6,7 @@ gig: 2019-05-18 20:00:00 +0200
 section: 5
 priority: 1
 box:
+  size:
   image:
     src: content-images/2019-05-18-metal-stone1.jpg
     position: top

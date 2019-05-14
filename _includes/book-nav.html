@@ -7,8 +7,8 @@
 
   {% assign chapterByPriority = site.meta_chapters | sort:"priority" %}
   {% for cat in chapterByPriority %}
-    {% assign lastPostInChapter = site.posts | where_exp:"post","post.chapter == cat.slag" | sort: "section" "last" %}
-    <li><a href="#{{cat.slag}}-{{lastPostInChapter.section}}">{{cat.name}}</a></li>
+    {% assign postsInChapter = site.posts | where_exp:"post","post.chapter == cat.slag" | sort: "section" %}
+    <li><a href="#{{cat.slag}}-{{postsInChapter.last.section}}">{{cat.name}}</a></li>
   {% endfor %}
   </ul>
 </nav>
