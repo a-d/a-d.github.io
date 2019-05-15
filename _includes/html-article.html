@@ -1,0 +1,37 @@
+{%- capture imagePosition -%}
+  {% if site.values.alignment contains post.box.image.position %}
+    img-{{ post.box.image.position }}
+  {% endif %}
+{%- endcapture -%}
+
+{%- capture imageSize -%}
+  {% if site.values.sizes contains post.box.image.size %}
+    img-size-{{ post.box.image.size }}
+  {% endif %}
+{%- endcapture -%}
+
+{%- capture boxSize  -%}
+  {% if post.box.size > 0 %}
+    {% if site.values.dimension contains post.box.size %}
+    s-{{ post.box.size }}
+    {% endif %}
+  {% endif %}
+{%- endcapture -%}
+<article id="article-{{ include.id }}" class="{{ boxSize }}">
+
+  {% if post.box.image.src %}
+    <img class="img-feat {{ imagePosition }} {{ imageSize }}" src="{{ post.box.image.src }}" />
+  {% endif %}
+
+  <header>
+      <a href="#article-{{ include.id }}" class="anchor">⛓</a>
+      <h2>{{ post.title }}</h2>
+
+      {% if post.gig %}
+        <time pubdate="pubdate" datetime="{{ post.gig | date: "%Y-%m-%d" }}">{{ post.gig | date: "%d.%m.%Y" }}</time>
+      {% endif %}
+  </header>
+
+  {{ post.content }}
+
+</article>

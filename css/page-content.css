@@ -30,7 +30,6 @@ p {
   font-family: Courier New;
   font-size: 5vmin;
   line-height: 2em;
-  backface-visibility: hidden;
   overflow: hidden;
   height: 1.5em;
 }

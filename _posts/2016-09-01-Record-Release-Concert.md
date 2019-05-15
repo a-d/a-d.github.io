@@ -1,20 +1,16 @@
 ---
-title:  "Record Realease Concert"
+title:  "Record Release Concert"
 date:   2016-09-01 07:00:00 +0000
 chapter: kurs
 gig: 2016-12-10 21:00:00 +0100
 section: 2
-priority: 4
+priority: 1
 box:
-  dimension:
-    width: 55
-    height: 70
+  size:
   image:
     src: content-images/goetterrecordrelease-211x300.jpg
     position: right
-    scaling:
-      width: 50
-      height: auto
+    size: 30
 ---
 **Nachtrag (11.12.2016): Danke, dass ihr da wart! Das war ein toller Abend!**
 

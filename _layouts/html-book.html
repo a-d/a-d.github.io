@@ -1,0 +1,21 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+  {% include html-head.html %}
+  <body>
+
+    <div id="scene">
+      <main class="book">
+        {% include book-cover.html %}
+        {{ content }}
+      </main>  
+      {% include book-nav.html %}
+    </div>
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.custom.min.js"></script>
+    <script src="js/deafflow-2.0.0.js"></script>
+  </body>
+</html>

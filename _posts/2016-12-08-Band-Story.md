@@ -3,17 +3,12 @@ title:  "Band Story"
 date:   2016-12-08 07:00:00 +0000
 chapter: mannschaft
 section: 1
-priority: 3
+priority: 1
 box:
-  dimension:
-    width: 100
-    height: 45
+  size:
   image:
     src: content-images/promovolksmusik-300x191.jpg
     position: right
-    scaling:
-      width: 40
-      height: auto
 ---
 
 Ihr Motor ist der Spaß am gemeinsamen Musizieren. Die Inspiration für ihre Songs ziehen sie aus den unterschiedlichsten Bereichen: Mythologie und Wissenschaft, Comichelden und B-Movies. Daraus entstehen knackige, tanzbare Songs, die skurrile oder absurde Geschichten mit eingängigen Melodien und harten Gitarrenriffs verweben.

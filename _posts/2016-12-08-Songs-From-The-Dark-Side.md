@@ -4,17 +4,9 @@ date:   2016-12-08 07:00:00 +0000
 chapter: ladung
 tags: media
 section: 1
-priority: 3
+priority: 1
 box:
-  dimension:
-    width: 50
-    height: 50
-  image:
-    src: content-images/uranus2-e1481370011917-300x114.jpg
-    position: top
-    scaling:
-      width: auto
-      height: 50
+  size:
 ---
 
 ... of Uranus.

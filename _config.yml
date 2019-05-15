@@ -7,7 +7,7 @@ exclude:
   - README.md
 
 header:
-  logo: images-layout/cropped-cover.goetter.0.33web-1.png
+  logo: images-layout/cropped-cover.goetter.0.33web-1.jpg
   sub-title:
     - Stoner Ear Candy Rock
     - zwischen heavy und catchy!
@@ -19,14 +19,14 @@ header:
     - name: laut.de
       url: http://www.laut.de/Deaf-Flow
 
-gems:
-  - jekyll-sitemap
-  - jekyll-redirect-from
+# gems:
+#  - jekyll-sitemap
+#  - jekyll-redirect-from
 
 values:
   alignment: [left,right,top,bottom]
-  dimension: [100,75,70,65,60,55,50,45,40,35,30,25]
-  scaling: [20,30,40,50,60,70,80]
+  dimension: [1,2,3,4,5,6,7,8,9]
+  sizes: [10,20,30,40,50,60,70,80,90]
 
 # Build settings
 markdown: kramdown
@@ -35,4 +35,4 @@ markdown: kramdown
 title: Deaf Flow
 description: "Logbuch des Kapitäns"
 source: ./
-destination: ../web
+destination: web
