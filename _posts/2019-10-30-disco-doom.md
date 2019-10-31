@@ -16,8 +16,8 @@ Im [Big Snuff Studio](https://www.bigsnuffstudio.com/) haben wir innerhalb kürz
 Richard Behrens hat es geschafft unseren unverkennbaren _Garagé_ Sound in ein konsumierbares Hörerlebnis zu übertragen.
 Heute wissen wir, uns hört man am besten wenn das analoge Signal auf Band gemixt wird!
 
-* [Big Bad Wolf](https://www.youtube.com/watch?v=ET_fiMwics0)
-* Gojiraaa
-* [Barbra Joan](https://www.youtube.com/watch?v=xgEBHVtst3o)
+* Big Bad Wolf ([YouTube](https://www.youtube.com/watch?v=ET_fiMwics0))
+* Gojiraaa (???)
+* Barbra Joan ([YouTube](https://www.youtube.com/watch?v=xgEBHVtst3o))
 
 Wird *2020* das Jahr des Albums?
