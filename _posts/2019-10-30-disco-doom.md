@@ -3,7 +3,7 @@ title: "Disco Doom"
 date: 2019-10-30 07:00:00 +0000
 chapter: kurs
 section: 6
-priority: 2
+priority: 1
 box:
   size:
   image:
