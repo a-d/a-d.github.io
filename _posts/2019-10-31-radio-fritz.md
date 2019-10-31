@@ -3,9 +3,9 @@ title: "Bei den Radio Fritzen"
 date: 2019-10-31 07:00:00 +0000
 chapter: kurs
 section: 6
-priority: 1
+priority: 2
 box:
-  size: 4
+  size: 3
   image:
     src: content-images/2019-10-24_220942.jpg
     position: top
