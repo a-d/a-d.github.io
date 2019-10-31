@@ -9,7 +9,7 @@ box:
   image:
     src: content-images/disco-doom.jpg
     position: right
-    size: 75
+    size: 50
 ---
 Wie ihr wahrscheinlich per [Facebook](https://www.facebook.com/deafflow) und persönliche Kurzmitteilungen mitbekommen habt, waren wir dieses Jahr fleißig!
 Aber dieses Mal Qualität statt Quantität!
