@@ -12,11 +12,11 @@ box:
     size: 50
 ---
 Wie ihr wahrscheinlich per [Facebook](https://www.facebook.com/deafflow) und persönliche Kurzmitteilungen mitbekommen habt, waren wir dieses Jahr fleißig!
-Aber dieses Mal Qualität statt Quantität!
+Dieses Mal sogar Qualität statt Quantität!
 Im [Big Snuff Studio](https://www.bigsnuffstudio.com/) haben wir innerhalb kürzester Zeit ein kleines Schmankerl zusammengezimmert.
 
-Richard Behrens hat es geschafft unseren unverkennbaren _Garagé_ Sound in ein konsumierbares Hörerlebnis zu übertragen.
-Heute wissen wir, uns hört man am besten wenn das analoge Signal auf Band gemixt wird!
+Richard Behrens hat es geschafft unseren unverkennbaren _"Garagé"_ Sound in ein konsumierbares Hörerlebnis zu übertragen.
+Heute wissen wir: uns hört man am besten, wenn das analoge Signal auf Band gemixt wird! Hier gibt es die Hörproben:
 
 * Big Bad Wolf ([YouTube](https://www.youtube.com/watch?v=ET_fiMwics0))
 * Barbra Joan ([YouTube](https://www.youtube.com/watch?v=xgEBHVtst3o))
