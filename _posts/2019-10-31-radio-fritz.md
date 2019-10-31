@@ -5,7 +5,7 @@ chapter: kurs
 section: 6
 priority: 2
 box:
-  size: 3
+  size: 4
   image:
     src: content-images/2019-10-24_220942.jpg
     position: top
