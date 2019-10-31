@@ -24,6 +24,6 @@ Wie labil ist der Zustand der Band?
 Wer spielt eigentlich die Instrumente auf der letzten Studio EP?
 Was ist unser Beef mit Eventim?
 Alles Lügen und Meinungsmache!
-Ergründet mit uns die Fakenews.
+Ergründet mit uns die medialen Fakenews rund um Deaf Flow.
 
 Hört live mit oder eine Woche lang den Beitrag in der Mediathek.
