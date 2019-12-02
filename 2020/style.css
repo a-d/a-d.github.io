@@ -93,9 +93,9 @@ section {
 */
 
 .paralax .gojira{
-	height:300px;						
-	width:466px;
-	bottom:19%;	background:url("images/ezgif-6-811a6fbbd2b9.gif") no-repeat;
+	height:40vmin;						
+	width:80vmin;
+	bottom:20%;	background:url("images/ezgif-6-811a6fbbd2b9.gif") no-repeat;
 	background-size: 100% 100%;
 }
 
