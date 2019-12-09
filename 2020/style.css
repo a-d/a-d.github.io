@@ -38,17 +38,19 @@ section {
 .paralax .foreground{
 	height:50%;						
 	bottom:0;	
-	background:url("images/foreground.png") repeat-x;
-	background-size: 25% 100%;
+	background:url("images/foreground.svg") repeat-x;
 	animation: slideshow 45s linear infinite;
+	background-size: 243vmin 50vmin;
+	background-position-y: bottom;
 }
 
 .paralax .hills{
 	height:60%;						
-	bottom:8%;
-	background:url("images/hills.png") repeat-x;
-	background-size: 25% 100%;
+	bottom:7%;
+	background:url("images/middle-city.svg") repeat-x;
 	animation: slideshow 90s linear infinite;
+	background-size: 243vmin 50vmin;
+	background-position-y: bottom;
 }
 
 .paralax .rocks1{
@@ -95,7 +97,8 @@ section {
 .paralax .gojira{
 	height:40vmin;						
 	width:80vmin;
-	bottom:20%;	background:url("images/ezgif-6-811a6fbbd2b9.gif") no-repeat;
+	bottom:16vmin;
+	background:url("images/ezgif-6-811a6fbbd2b9.gif") no-repeat;
 	background-size: 100% 100%;
 }
 
