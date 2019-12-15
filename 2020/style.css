@@ -37,36 +37,42 @@ section {
 
 .paralax .foreground{
 	height:50%;						
-	bottom:0;	
+	bottom:0;
+	width: 200%;
 	background:url("images/foreground.svg") repeat-x;
-	animation: slideshow 45s linear infinite;
-	background-size: 243vmin 50vmin;
+	background-size: 50%;
 	background-position-y: bottom;
+	animation: slideshow 5s linear infinite;
 }
 
 .paralax .hills{
 	height:60%;						
-	bottom:7%;
+	bottom:6vmin;
+	width: 200%;
 	background:url("images/middle-city.svg") repeat-x;
-	animation: slideshow 90s linear infinite;
-	background-size: 243vmin 50vmin;
+	background-size: 50%;
 	background-position-y: bottom;
+	animation: slideshow 9s linear infinite;
 }
 
 .paralax .rocks1{
-	height:35%;						
-	bottom:25%;
-	background:url("images/rocks1.png") repeat-x;
-	background-size: 25% 100%;
-	animation: slideshow 180s linear infinite;
+	height: 32vmin;
+	bottom: 8vmin;
+	width: 200%;
+	background:url("images/rocks1.svg") repeat-x;
+	background-position-y: bottom;
+	background-size: 50%;
+	animation: slideshow 18s linear infinite;
 }
 
 .paralax .rocks2{
-	height:40%;						
-	bottom:15%;	
-	background:url("images/rocks2.png") repeat-x;
-	background-size: 25% 100%;
-	animation: slideshow 360s linear infinite;
+	height: 45vmin;
+	bottom: 18vmin;
+	width: 200%;
+	background:url("images/rocks2.svg") repeat-x;
+	background-position-y: bottom;
+	background-size: 50%;
+	animation: slideshow 36s linear infinite;
 }
 
 @keyframes slideshow {
@@ -95,9 +101,9 @@ section {
 */
 
 .paralax .gojira{
-	height:40vmin;						
-	width:80vmin;
-	bottom:16vmin;
+	height: 37vmin;
+	width: 62vmin;
+	bottom: 6vmin;
 	background:url("images/ezgif-6-811a6fbbd2b9.gif") no-repeat;
 	background-size: 100% 100%;
 }
