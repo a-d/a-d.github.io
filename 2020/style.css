@@ -15,30 +15,16 @@ section {
 }
 */
 
-.content {
-	position:absolute;
-	width:100%;
-	height:100%;
-	overflow:hidden;
-}
-
 .paralax{
-	position:absolute;
-	width:100%;
-	height:100%;
-	overflow:hidden;
 	background:url("images/clouds.svg"), linear-gradient(#da7885, #ffca8c);
 	background-size:cover;
-	background-position: center; 
-}
-
-.paralax .layer{
-	position:absolute;
-	width:400%;
+	background-position: center;
+	background-attachment: fixed;
+	padding-bottom: 25em;
 }
 
 .paralax .foreground{
-	height:43vmin;						
+	height:50vmin;						
 	bottom:0;
 	width: 200%;
 	background:url("images/foreground.svg") repeat-x;
@@ -46,10 +32,11 @@ section {
 	background-position-y: bottom;
 	animation: slideshow 25s linear infinite;
 	/* animation: slideshow 45s linear infinite; */
+	position: fixed;
 }
 
 .paralax .hills{
-	height:50vmin;						
+	height:55vmin;						
 	bottom:6vmin;
 	width: 200%;
 	background:url("images/middle-city.svg") repeat-x;
@@ -57,6 +44,7 @@ section {
 	background-position-y: bottom;
 	animation: slideshow 45s linear infinite;
 	/* animation: slideshow 90s linear infinite; */
+	position: fixed;
 }
 
 .paralax .rocks1{
@@ -68,6 +56,7 @@ section {
 	background-size: 50%;
 	animation: slideshow 90s linear infinite;
 	/* animation: slideshow 180s linear infinite; */
+	position: fixed;
 }
 
 .paralax .rocks2{
@@ -79,6 +68,7 @@ section {
 	background-size: 50%;
 	animation: slideshow 180s linear infinite;
 	/* animation: slideshow 360s linear infinite; */
+	position: fixed;
 }
 
 @keyframes slideshow {
@@ -112,6 +102,7 @@ section {
 	bottom: 6vmin;
 	background:url("images/ezgif-6-811a6fbbd2b9.gif") no-repeat;
 	background-size: 100% 100%;
+	position: fixed;
 }
 
 /**	
@@ -183,11 +174,6 @@ a:active{
  * contents
  */
 
-.paralax div.site {
-	width:100%;
-	height: 100%;
-	overflow: auto;
-}
 .paralax div.site section article {
 	display: block;
 	max-width: 45em;
@@ -211,9 +197,4 @@ a:active{
 .paralax div.site section article h3 {
 	display: block;
 	margin: 0;
-}
-.paralax div.site section:last-of-type article:last-of-type {
-
-    margin-bottom: 40vmin;
-
 }
