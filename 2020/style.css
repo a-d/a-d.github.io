@@ -5,6 +5,7 @@ html, body {
 	height:100%;
 }
 
+/*
 section {
 	margin: 0;
 	position:relative;
@@ -12,6 +13,7 @@ section {
 	height: 100%;
 	background-color: #C0B3A0;
 }
+*/
 
 .content {
 	position:absolute;
@@ -25,7 +27,7 @@ section {
 	width:100%;
 	height:100%;
 	overflow:hidden;
-	background:url("images/background.jpg");
+	background:url("images/clouds.svg"), linear-gradient(#da7885, #ffca8c);
 	background-size:cover;
 	background-position: center; 
 }
@@ -36,7 +38,7 @@ section {
 }
 
 .paralax .foreground{
-	height:50%;						
+	height:43vmin;						
 	bottom:0;
 	width: 200%;
 	background:url("images/foreground.svg") repeat-x;
@@ -46,7 +48,7 @@ section {
 }
 
 .paralax .hills{
-	height:60%;						
+	height:50vmin;						
 	bottom:6vmin;
 	width: 200%;
 	background:url("images/middle-city.svg") repeat-x;
@@ -170,4 +172,44 @@ a:active{
 .url-normal{
 	opacity: 0.5;
 	text-decoration: none;
+}
+
+
+/**
+ * contents
+ */
+
+.paralax div.site {
+	width:100%;
+	height: 100%;
+	overflow: auto;
+}
+.paralax div.site section article {
+	display: block;
+	max-width: 45em;
+	margin: 1em auto;
+	min-width: 10em;
+	padding: 1em;
+	border: 1px solid;
+	border-radius: 1em;
+	background-color: rgba(100, 100, 100, 0.3);
+	box-shadow: 1em 1em 3em #ffca8c;
+}
+.paralax div.site h1 {
+	margin: auto;
+	text-align: center;
+}
+.paralax div.site section h2 {
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.paralax div.site section article h3 {
+	display: block;
+	margin: 0;
+}
+.paralax div.site section:last-of-type article:last-of-type {
+
+    margin-bottom: 40vmin;
+
 }
