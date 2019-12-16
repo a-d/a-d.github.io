@@ -44,7 +44,8 @@ section {
 	background:url("images/foreground.svg") repeat-x;
 	background-size: 50%;
 	background-position-y: bottom;
-	animation: slideshow 5s linear infinite;
+	animation: slideshow 25s linear infinite;
+	/* animation: slideshow 45s linear infinite; */
 }
 
 .paralax .hills{
@@ -54,7 +55,8 @@ section {
 	background:url("images/middle-city.svg") repeat-x;
 	background-size: 50%;
 	background-position-y: bottom;
-	animation: slideshow 9s linear infinite;
+	animation: slideshow 45s linear infinite;
+	/* animation: slideshow 90s linear infinite; */
 }
 
 .paralax .rocks1{
@@ -64,7 +66,8 @@ section {
 	background:url("images/rocks1.svg") repeat-x;
 	background-position-y: bottom;
 	background-size: 50%;
-	animation: slideshow 18s linear infinite;
+	animation: slideshow 90s linear infinite;
+	/* animation: slideshow 180s linear infinite; */
 }
 
 .paralax .rocks2{
@@ -74,7 +77,8 @@ section {
 	background:url("images/rocks2.svg") repeat-x;
 	background-position-y: bottom;
 	background-size: 50%;
-	animation: slideshow 36s linear infinite;
+	animation: slideshow 180s linear infinite;
+	/* animation: slideshow 360s linear infinite; */
 }
 
 @keyframes slideshow {
