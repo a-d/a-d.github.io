@@ -5,18 +5,14 @@ layout: html-gojira
 {% for chapter in chapterByPriority %}
 
   <!-- {{ chapter.name }} -->
-    {% assign sectionsInChapter = site.posts | where_exp:"post","post.chapter == chapter.slag" | sort:"section" | reverse | group_by:"section" %}
+    {% assign sectionsInChapter = site.posts | where_exp:"post","post.chapter == chapter.slag" | sort:"section" | reverse %}
     {% for section in sectionsInChapter %}
-      {% assign sectionId = section.name %}
-      <section
-        data-category="{{ chapter.slag }}"
-        data-category-page="{{ sectionId }}"
-        data-description="{{ chapter.description }}">
+      <section id="{{ chapter.slag }}">
+        <h2>{{ chapter.description | upcase }}</h2>
 
         {%- assign sortedPostsInSection = section.items | sort: "priority" | reverse -%}
         {%- for post in sortedPostsInSection -%}
-
-          {%- capture articleId  -%}{{ chapter.slag }}-{{ sectionId }}-{{ post.priority }}{%- endcapture -%}
+          {%- capture articleId  -%}{{ chapter.slag }}-{{ post.priority }}{%- endcapture -%}
           {%- include html-gojira-article.html id=articleId -%}
         {%- endfor -%}
       
