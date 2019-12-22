@@ -1,0 +1,7 @@
+<ul class="sitemap">
+{% assign chapterByPriority = site.meta_chapters | sort:"priority" %}
+{% for cat in chapterByPriority %}
+  {% assign postsInChapter = site.posts | where_exp:"post","post.chapter == cat.slag" | sort: "section" %}
+  <li><a href="#{{cat.slag}}">{{cat.name}}</a></li>
+{% endfor %}
+</ul>

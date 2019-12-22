@@ -1,0 +1,9 @@
+
+<h1>{{site.title}}</h1>
+<p>{{site.description}}</p>
+  
+<div class="social">
+    {% for social in site.header.social %}
+      <a href="{{ social.url }}">{{ social.name }}</a>
+    {% endfor %}
+</div>

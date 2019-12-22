@@ -240,6 +240,7 @@ a:active{
 	display: block;
 	text-decoration: none;
 	color: #da7885;
+	line-height: 5em;
 }
 .sitemap a:hover {
 	text-shadow: 0em 0em 1em #ffca8c;
