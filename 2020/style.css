@@ -291,6 +291,7 @@ article a:hover,article a:visited,article a:focus {
 }
 article iframe {
 	float: right;
+	max-width: 100%;
 }
 .claim {
 	margin: auto;
