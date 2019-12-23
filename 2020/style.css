@@ -189,8 +189,8 @@ a:active{
 	max-width: 45em;
 	margin: 2em auto;
 	min-width: 10em;
-	padding: 4em;
-	background-image: url('images/Scroll1.gif');
+	padding: 4em 4em 3em 4em;
+	background-image: url('images/Scroll-bg.gif');
 	background-size: 100%;
 	background-repeat: repeat-y;
 	position: relative;
@@ -254,4 +254,67 @@ a:active{
 	background-position: center;
 	background-image: url("images/icon.png");
 	background-repeat: no-repeat;
+}
+.paralax div.site section > hr:last-child {
+	display: none;
+}
+
+article .img-right {
+	float:right;
+	margin: 0 1em 0 1em;
+	max-width: 50%;
+}
+article .img-left {
+	float:left;
+	margin: 0 1em 1em 0;
+	max-width: 50%;
+}
+article .img-top {
+	max-height: 20em;
+	object-fit: cover;
+	width: 100%;
+}
+article a,article a:link {
+	color: #644;
+}
+article a:hover,article a:visited,article a:focus {
+	color: #855;
+	text-decoration: none;
+}
+article iframe {
+	float: right;
+}
+.claim {
+	margin: auto;
+	text-align: center;
+	font-family: "aai";
+	color: bisque;
+	font-size: 1.5vw;
+	letter-spacing: 0.4em;
+}
+.social {
+	display: block;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+}
+.social > * {
+	display: block;
+	flex-grow: 1;
+	text-align: center;
+}
+.social a {
+	display: block;
+	text-decoration: none;
+	color:#ffca8c;
+	line-height: 3em;
+	font-size: 1em;
+	border-radius: 1em;
+	margin: 1em;
+	background-color:rgba(255,0,0,0.1);
+}
+.social a:hover {
+	text-decoration: underline;
+	background-color:rgba(255,0,0,0.2);
 }

@@ -20,6 +20,6 @@ Heute wissen wir: uns hört man am besten, wenn das analoge Signal auf Band gemi
 
 * Big Bad Wolf ([YouTube](https://www.youtube.com/watch?v=ET_fiMwics0))
 * Barbra Joan ([YouTube](https://www.youtube.com/watch?v=xgEBHVtst3o))
-* Gojiraaa ( - coming soon - )
+* Gojiraaa ([YouTube](https://www.youtube.com/watch?v=UkK5kNEj020))
 
 Wird *2020* das Jahr des Albums?

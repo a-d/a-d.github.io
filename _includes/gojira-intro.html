@@ -1,9 +1,12 @@
 
 <h1>{{site.title | upcase}}</h1>
-<p>{{site.description}}</p>
+
+{% for claim in site.header.sub-title %}
+<p class="claim">{{claim | upcase}}</p>
+{% endfor %}
   
-<div class="social">
+<ul class="social">
     {% for social in site.header.social %}
-      <a href="{{ social.url }}">{{ social.name }}</a>
+    <li><a href="{{ social.url }}">{{ social.name }}</a></li>
     {% endfor %}
-</div>
+</ul>
