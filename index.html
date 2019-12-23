@@ -11,7 +11,7 @@ layout: html-book
       <section
         data-category="{{ chapter.slag }}"
         data-category-page="{{ sectionId }}"
-        data-description="{{ chapter.description }}">
+        data-description="{{ chapter.description.nautic }}">
 
         {%- assign sortedPostsInSection = section.items | sort: "priority" | reverse -%}
         {%- for post in sortedPostsInSection -%}

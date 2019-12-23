@@ -1,7 +1,7 @@
 ---
 title:  "Band Story"
 date:   2016-12-08 07:00:00 +0000
-chapter: mannschaft
+chapter: band
 section: 1
 priority: 1
 box:

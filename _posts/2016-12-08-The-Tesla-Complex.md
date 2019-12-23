@@ -1,7 +1,7 @@
 ---
 title:  "The Tesla Complex"
 date:   2016-12-08 07:00:00 +0000
-chapter: ladung
+chapter: sound
 tags: media
 section: 1
 priority: 2

@@ -1,7 +1,7 @@
 ---
 title: "MOJO RISING"
 date: 2019-04-21 07:00:00 +0000
-chapter: kurs
+chapter: news
 gig: 2019-04-21 18:00:00 +0200
 section: 4
 priority: 1

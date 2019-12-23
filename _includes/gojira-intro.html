@@ -1,12 +1,13 @@
+<div class="titlescreen">
+    <ul class="social">
+        {% for social in site.header.social %}
+        <li><a href="{{ social.url }}"><img src="{{ social.icon }}" alt="{{ social.name }}" /></a></li>
+        {% endfor %}
+    </ul>
 
-<h1>{{site.title | upcase}}</h1>
+    <h1>{{site.title | upcase}}</h1>
 
-{% for claim in site.header.sub-title %}
-<p class="claim">{{claim | upcase}}</p>
-{% endfor %}
-  
-<ul class="social">
-    {% for social in site.header.social %}
-    <li><a href="{{ social.url }}">{{ social.name }}</a></li>
+    {% for claim in site.header.sub-title %}
+    <p class="claim">{{claim | upcase}}</p>
     {% endfor %}
-</ul>
+</div>
