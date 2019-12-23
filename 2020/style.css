@@ -259,6 +259,9 @@ a:active{
 	display: none;
 }
 
+article img {
+	max-width: 100%;
+}
 article .img-right {
 	float:right;
 	margin: 0 1em 0 1em;
