@@ -194,7 +194,6 @@ a:active{
 	background-size: 100%;
 	background-repeat: repeat-y;
 	position: relative;
-	overflow:hidden;
 }
 .paralax div.site h1 {
 	margin: auto;
