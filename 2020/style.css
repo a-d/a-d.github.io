@@ -29,7 +29,7 @@ section {
 	background-size:cover;
 	background-position: center;
 	background-attachment: fixed;
-	padding-bottom: 25em;
+	min-height: 100%;
 }
 
 .paralax .foreground{
@@ -151,9 +151,8 @@ a:active{
 }
 
 /**
- * contents
+ * general contents
  */
-
 .paralax div.site section article:before {
 	content:"";
 	display: block;
@@ -219,6 +218,9 @@ a:active{
 	margin: 0;
 }
 
+/**
+ * navigation bottom
+ */
 .sitemap {
 	position: fixed;
 	bottom: 0;
@@ -245,6 +247,10 @@ a:active{
 .sitemap a:hover {
 	text-shadow: 0em 0em 1em #ffca8c;
 }
+
+/**
+ * separator
+ */
 .paralax div.site section > hr {
 	height: 3em;
 	margin: 0em auto;
@@ -259,6 +265,9 @@ a:active{
 	display: none;
 }
 
+/**
+ * article contents
+ */
 article table {
 	font-size: 0.5em;
 }
@@ -291,6 +300,13 @@ article a:hover,article a:visited,article a:focus {
 article iframe {
 	float: right;
 	max-width: 100%;
+}
+
+/**
+ * title screen
+ */
+.titlescreen {
+	height: 95vh;
 }
 .claim {
 	margin: auto;
@@ -335,6 +351,14 @@ article iframe {
 	display: block;
 	padding: 1em;
 }
-.titlescreen {
-	height: 90vh;
+
+/**
+ * pagination
+ */
+section {
+	display:none;
+	padding-bottom: 50vh;
+}
+section:target {
+	display:block;
 }
