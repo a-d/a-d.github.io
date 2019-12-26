@@ -3,7 +3,7 @@ title: "In Funk und Fern"
 date: 2019-12-25 07:00:00 +0000
 chapter: news
 section: 6
-priority: 1
+priority: 4
 box:
   size: 4
   image:
