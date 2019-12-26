@@ -1,7 +1,7 @@
 ---
 title: "Bei den Radio Fritzen"
 date: 2019-10-31 07:00:00 +0000
-chapter: kurs
+chapter: news
 section: 6
 priority: 2
 box:

@@ -1,7 +1,7 @@
 ---
 title:  "Vergangene Konzerte"
 date:   2016-12-08 07:00:00 +0000
-chapter: kurs
+chapter: news
 section: 1
 priority: 1
 box:

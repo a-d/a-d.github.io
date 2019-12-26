@@ -1,7 +1,7 @@
 ---
 title: "METAL & STONE & DEAF"
 date: 2019-05-01 07:00:00 +0000
-chapter: kurs
+chapter: news
 gig: 2019-05-18 20:00:00 +0200
 section: 5
 priority: 1

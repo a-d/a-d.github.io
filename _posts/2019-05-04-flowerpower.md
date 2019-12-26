@@ -1,7 +1,7 @@
 ---
 title: "Viel Power für Deaf Flower"
 date: 2019-05-04 07:00:00 +0000
-chapter: kurs
+chapter: news
 gig: 2019-05-04 18:00:00 +0200
 section: 4
 priority: 2

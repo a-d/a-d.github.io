@@ -1,7 +1,7 @@
 ---
 title: "Break Out - sehr laut!"
 date: 2018-10-09 20:00:00 +0000
-chapter: kurs
+chapter: news
 gig: 2018-10-27 20:00:00 +0200
 section: 3
 priority: 2

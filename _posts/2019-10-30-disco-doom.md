@@ -1,7 +1,7 @@
 ---
 title: "Disco Doom"
 date: 2019-10-30 07:00:00 +0000
-chapter: kurs
+chapter: news
 section: 6
 priority: 1
 box:
@@ -20,6 +20,6 @@ Heute wissen wir: uns hört man am besten, wenn das analoge Signal auf Band gemi
 
 * Big Bad Wolf ([YouTube](https://www.youtube.com/watch?v=ET_fiMwics0))
 * Barbra Joan ([YouTube](https://www.youtube.com/watch?v=xgEBHVtst3o))
-* Gojiraaa ( - coming soon - )
+* Gojiraaa ([YouTube](https://www.youtube.com/watch?v=UkK5kNEj020))
 
 Wird *2020* das Jahr des Albums?

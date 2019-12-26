@@ -11,13 +11,13 @@ layout: html-book
       <section
         data-category="{{ chapter.slag }}"
         data-category-page="{{ sectionId }}"
-        data-description="{{ chapter.description }}">
+        data-description="{{ chapter.description.nautic }}">
 
         {%- assign sortedPostsInSection = section.items | sort: "priority" | reverse -%}
         {%- for post in sortedPostsInSection -%}
 
           {%- capture articleId  -%}{{ chapter.slag }}-{{ sectionId }}-{{ post.priority }}{%- endcapture -%}
-          {%- include html-article.html id=articleId -%}
+          {%- include html-book-article.html id=articleId -%}
         {%- endfor -%}
       
       </section>
