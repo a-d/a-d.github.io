@@ -15,6 +15,12 @@ Das alte Schiff _Deaf Flow_ hat bereits viele Meere bereist. Unser Geschichten­
 
 |**Datum**|**Ankerplatz**|**Heimathafen**|
 |--- |--- |--- |
+|16.11.2019|[Little Villains & Deaf Flow Sa 21:00](https://www.facebook.com/events/2410627302552660/)|[Kulturhof Lübbenau](https://www.facebook.com/kulturhof.luebbenau/)|
+|15.11.2019|[Deaf Flow & Brudas Fr 19:00](https://www.facebook.com/events/559026191519894/)|[Alhambra Luckenwalde](https://www.facebook.com/musikundkultur/)|
+|08.11.2019|[Gracchus (CH), Deaf Flow, Weinhardt Fr 20:00](https://www.facebook.com/events/246595576264020/)|[Cassiopeia Berlin](https://www.facebook.com/cassiopeiaclub/)|
+|04.05.2019|[Deaf Flow – Live Sa 22:00](https://www.facebook.com/events/315505502436400/)|[Flowerpower Leipzig](https://www.facebook.com/Flowerpower.Leipzig/)|
+|21.04.2019|[MOJO Rising Vol II: Deaf Flow, Sonic Beat Explosion, SOTB, Sid Vision, AUX So 19:00](https://www.facebook.com/events/411578702947647/)|[Privatclub Berlin](https://www.facebook.com/privatclub/)|
+|22.12.2018|[Red Beard-SouthernRock/USA + Deaf Flow-Rock/Bln Sa 22:00](https://www.facebook.com/events/1676048565855902/)|[Wild At Heart Berlin](https://www.facebook.com/wildatheartberlin/)|
 |02.10.2017|[DEAF FLOW + Langfinger (SWE) Mo 22:00 ](https://www.facebook.com/events/279316562473011/)|[Fatal music club Prague, Czech Republic](https://www.facebook.com/fatal.music.club/)|
 |15.07.2017|[DEAF FLOW @ Wild At Heart Sa 22:00 ](https://www.facebook.com/events/1840293526220695/)|[Wild At Heart Berlin](https://www.facebook.com/wildatheartberlin/)|
 |10.12.2016|[DEAF FLOW's EP Release w/ Samba Cemetery + Redscale Sa 21:00 ](https://www.facebook.com/events/1221993884487192/?acontext=%7B%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22page%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22main_list%5C%22%2C%5C%22extra_data%5C%22%3A%5C%22%7B%7D%5C%22%7D]%22%7D)|[Cortina Bob Berlin Berlin](https://www.facebook.com/CortinaBobBerlin/)|
