@@ -7,7 +7,7 @@ priority: 2
 box:
   size: 4
   image:
-    src: content-images/2019-10-24_220942.jpg
+    src: content-images/2019-10-24_220945.jpg
     position: top
 ---
 Heute sind eure Lieblingsmusiker im Radio zu hören.
@@ -25,5 +25,12 @@ Wer spielt eigentlich die Instrumente auf der letzten Studio EP?
 Was ist unser Beef mit Eventim?
 Alles Lügen und Meinungsmache!
 Ergründet mit uns die medialen Fakenews rund um Deaf Flow.
+
+
+{% include html-image.html
+  description="Bassist"
+  src="content-images/2019-10-24_220942.jpg"
+  class="img-right" %}
+
 
 Hört live mit oder eine Woche lang den Beitrag in der Mediathek.

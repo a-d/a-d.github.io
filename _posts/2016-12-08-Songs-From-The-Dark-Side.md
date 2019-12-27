@@ -34,3 +34,8 @@ Die im Dezember 2012 veröffentlichte EP:„Songs From The Dark Side Of Uranus�
 * Oix
 * Philip Eckstein
 * Thomas Kahl
+
+{% include html-image.html
+  description="Uranus CD"
+  src="content-images/uranus2-e1481370011917-300x114.jpg"
+  class="" %}

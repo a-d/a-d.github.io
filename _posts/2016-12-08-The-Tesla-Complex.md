@@ -34,3 +34,8 @@ Das Trio ist heiß darauf „The Tesla Complex“ auf einer bundesweiten Tour ei
 * Oix
 * Philip Eckstein
 * Thomas Kahl
+
+{% include html-image.html
+  description="Tesla Complex CD"
+  src="content-images/merch-tesla-e1481369977569.jpg"
+  class="" %}
