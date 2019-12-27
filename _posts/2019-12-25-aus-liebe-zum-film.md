@@ -1,5 +1,5 @@
 ---
-title: "2019 - In Funk und Fern"
+title: "2019 - In Funk und Fernsehen"
 date: 2019-12-25 07:00:00 +0000
 chapter: news
 section: 6
