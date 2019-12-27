@@ -303,6 +303,9 @@ article iframe {
 	max-width: 100%;
 	margin: 0 0 0 1em;
 }
+article hr {
+	border-color: #ffca8c;
+}
 
 /**
  * title screen
