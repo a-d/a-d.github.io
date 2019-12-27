@@ -18,8 +18,8 @@ Wir haben das Privileg beim sympathischen Sender **Tele 5** zum Godzilla Triple-
 Da passt die Faust auf's Auge.
 
 Damit geht insgesamt auch ein kreatives und ereignisreiches Jahr zu Ende.
-Starke Studioaufnahmen, prallen Promoaktionen und geile Gigs mit beeindruckenden Bands.
+Starke Studioaufnahmen, pralle Promoaktionen und geile Gigs mit beeindruckenden Bands.
 Außerdem passend zur Jahreszeit ein saisonales Website-Redesign.
-In den nächsten Monaten werden wir unszunächst neuen Sounds widmen.
+In den nächsten Monaten werden wir uns zunächst neuen Sounds widmen.
 Aber keine Sorge, auch 2020 wird man Deaf Flow wieder live erleben können!
 
