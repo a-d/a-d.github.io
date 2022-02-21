@@ -2,7 +2,7 @@
 title: "Impressum"
 date: 2020-08-28 07:00:00 +0000
 chapter: news
-section: 6
+section: 1
 priority: 0
 box:
   size: 4
