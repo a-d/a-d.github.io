@@ -1,7 +1,7 @@
 ---
 title: "Impressum"
 date: 2020-08-28 07:00:00 +0000
-chapter: news
+chapter: band
 section: 1
 priority: 0
 box:
