@@ -235,9 +235,10 @@ a:active{
 	padding: 0;
 }
 .sitemap > * {
-    display: block;
+	display: block;
 	flex-grow: 1;
 	text-align: center;
+	position: relative;
 }
 .sitemap a {
 	display: block;
