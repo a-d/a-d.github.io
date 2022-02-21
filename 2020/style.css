@@ -249,6 +249,17 @@ a:active{
 	text-shadow: 0em 0em 1em #ffca8c;
 }
 
+.sitemap a[href="#band"]::after {
+	content: "IMPRESSUM";
+	display: block;
+	font-size: 0.25em;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	line-height: 5em;
+	width: 100%;
+}
+
 /**
  * separator
  */
