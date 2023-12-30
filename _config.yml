@@ -16,7 +16,7 @@ header:
       url: https://www.facebook.com/deafflow/
       icon: 2020/images/facebook.png
     - name: bandcamp
-      url: https://deafflow.bandcamp.com/
+      url: https://deafwolf.bandcamp.com/
       icon: 2020/images/bandcamp-button-bc-circle-black-128.png
     - name: laut.de
       url: http://www.laut.de/Deaf-Flow
@@ -35,7 +35,7 @@ values:
 markdown: kramdown
 
 # Site settings
-title: Deaf Flow
+title: Deaf Wolf
 description: "Logbuch des Kapitäns"
 source: ./
 destination: web
