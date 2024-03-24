@@ -5,6 +5,8 @@ chapter: news
 gig: 2017-07-15 22:00:00 +0100
 section: 2
 priority: 2
+tags:
+  - show
 box:
   size: 4
   image:

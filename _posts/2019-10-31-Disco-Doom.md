@@ -2,7 +2,9 @@
 title:  "Disco Doom"
 date:   2019-10-31 07:00:00 +0000
 chapter: sound
-tags: media
+tags:
+  - release
+  - media
 section: 1
 priority: 4
 box:

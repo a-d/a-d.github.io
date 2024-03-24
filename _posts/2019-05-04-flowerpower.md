@@ -5,6 +5,8 @@ chapter: news
 gig: 2019-05-04 18:00:00 +0200
 section: 4
 priority: 2
+tags:
+  - show
 box:
   size: 6
   image:

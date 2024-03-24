@@ -1,7 +1,7 @@
 <ul id="navi">
-{% assign chapterByPriority = site.meta_chapters | sort:"priority" %}
+{% assign chapterByPriority = site.comic_topics | sort:"priority" %}
 {% for cat in chapterByPriority %}
   {% assign postsInChapter = site.posts | where_exp:"post","post.chapter == cat.slag" | sort: "section" %}
-  <li><a href="#{{cat.slag}}">{{cat.name[0].generic | upcase}}</a></li>
+  <li><a href="#{{cat.slag}}">{{cat.name | upcase}}</a></li>
 {% endfor %}
 </ul>

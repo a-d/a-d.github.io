@@ -4,6 +4,8 @@ date:   2016-12-08 08:00:00 +0000
 chapter: band
 section: 1
 priority: 2
+tags:
+  - about
 box:
   size: 6
   image:

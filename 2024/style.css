@@ -12,7 +12,7 @@
 
 body {
   background-color: #30befe;
-  overflow:auto;
+  overflow:hidden;
   position:absolute;
   left:0;
   right:0;
@@ -318,32 +318,39 @@ main > section > figure::before {
   padding: 0.5rem 2rem 0.5rem 0.5rem;
   z-index:1;
 }
-main > section > figure > img {
-  width: 100%;
+main > section > figure > img,
+article > section img {
+  max-width: 100%;
+  min-width: 70%;
   border-style: solid;
   background-color: #000;
 }
-main > section > figure:nth-of-type(4n+0) > img {
+main > section > figure:nth-of-type(4n+0) > img,
+article > section img:nth-of-type(4n+0) {
   border-width: 0.3em;
   border-radius: 95% 5% 87% 5%/5% 87% 5% 95%;
   transform: rotate(-1deg);
 }
-main > section > figure:nth-of-type(4n+1) > img {
+main > section > figure:nth-of-type(4n+1) > img,
+article > section img:nth-of-type(4n+1) {
   border-width: 0.2em 0.3em 0.2em 0.3em;;
   border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
   transform: rotate(2deg);
 }
-main > section > figure:nth-of-type(4n+2) > img {
+main > section > figure:nth-of-type(4n+2) > img,
+article > section img:nth-of-type(4n+2) {
   width:350px;
   border-width: 0.2em 0.2em 0.3em 0.3em;;
   border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
   transform: rotate(-2deg);
 }
-main > section > figure:nth-of-type(4n+3) > img {
+main > section > figure:nth-of-type(4n+3) > img,
+article > section img:nth-of-type(4n+3) {
   border-width:0.3em 0.2em 0.2em 0.3em;;
   border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
   transform: rotate(2deg);
 }
+
 
 main > section {
   display: none;
@@ -357,7 +364,7 @@ body > h1 {
     display:none;
 }
 main > p {
-    display:block;
+    display:none;
 }
 a {
   text-decoration: none;
@@ -366,4 +373,30 @@ a {
 main > p {
   opacity: 0.3;
   margin-top: -4em;
+}
+
+/* footer */
+
+ul.social img {
+  height: 1.5em;
+}
+ul.social a {
+  opacity: 0.8;
+}
+ul.social a:after {
+  content: attr(alt);
+  display: inline-block;
+  padding: 0 1em 0 0.3em;
+  vertical-align: middle;
+  height: 100%;
+}
+ul.social a:hover {
+  opacity 1;
+}
+ul.social, ul.social > li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  line-height: 100%;
 }

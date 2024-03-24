@@ -2,7 +2,9 @@
 title:  "Götterdämmerung"
 date:   2016-12-06 07:00:00 +0000
 chapter: sound
-tags: media
+tags:
+  - media
+  - release
 section: 1
 priority: 3
 box:

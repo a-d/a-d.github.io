@@ -5,6 +5,8 @@ chapter: news
 gig: 2016-12-10 21:00:00 +0100
 section: 2
 priority: 1
+tags:
+  - show
 box:
   size:
   image:

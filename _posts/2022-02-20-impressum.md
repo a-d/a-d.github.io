@@ -4,6 +4,8 @@ date: 2020-08-28 07:00:00 +0000
 chapter: band
 section: 1
 priority: 0
+tags:
+  - contact
 box:
   size: 4
 ---

@@ -4,6 +4,8 @@ date: 2019-10-31 07:00:00 +0000
 chapter: news
 section: 6
 priority: 2
+tags:
+  - news
 box:
   size: 4
   image:
