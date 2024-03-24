@@ -1,0 +1,15 @@
+---
+layout: html-comic
+---
+{% assign chapterByPriority = site.meta_chapters | sort:"priority" %}
+{% for chapter in chapterByPriority %}
+
+    <section id="{{ chapter.slag }}">
+        <h1>{{ chapter.description[0].generic | upcase }}</h1>
+        {% assign postsInChapter = site.posts | where_exp:"post","post.chapter == chapter.slag" | sort:"section" | reverse %}
+        {% for post in postsInChapter %}
+            {%- capture articleId  -%}{{ chapter.slag }}-{{ post.section }}-{{ post.priority }}{%- endcapture -%}
+            {%- include html-comic-article.html id=articleId -%}
+        {% endfor %}
+    </section>
+{% endfor %}

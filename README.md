@@ -7,7 +7,9 @@ Use Docker to run the project:
 ```
 # build
 docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/jekyll jekyll build
+docker run --rm --volume="${pwd}:/srv/jekyll" -it jekyll/jekyll jekyll build
 
 # serve and watch
 docker run --name a-d --volume="$PWD:/srv/jekyll" -p 3000:4000 -it jekyll/jekyll jekyll serve --watch --drafts
+docker run --name a-d --volume="${pwd}:/srv/jekyll" -p 3000:4000 -it jekyll/jekyll jekyll serve --watch --drafts
 ```

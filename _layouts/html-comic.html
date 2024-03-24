@@ -1,0 +1,37 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+  {% include html-comic-head.html %}
+  <body>
+
+  {% include html-comic-nav.html %}
+
+  <h1>{{site.title | upcase}}</h1>
+
+  <div class="aside aside-1"><img src="https://deafflow.com/content-images/deaf-wolf-vectors-boy.svg" /></div>
+  <div class="aside aside-2"><img src="https://deafflow.com/content-images/deaf-wolf-vectors-satan.svg" /></div>
+  <ul id="details">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+
+
+  <main>
+    <a href="http://deafflow.com" id="center"><img src="https://deafflow.com/content-images/Bandlogo2022-07-21-web3.svg" /></a>
+    {% for claim in site.header.sub-title %}
+      <p>{{claim | upcase}}</p>
+    {% endfor %}
+
+    {{ content }}
+  </main>
+
+  {% include html-comic-social.html %}
+
+  </body>
+</html>

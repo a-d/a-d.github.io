@@ -1,0 +1,7 @@
+<div class="footer">
+    <ul class="social">
+        {% for social in site.header.social %}
+        <li><a href="{{ social.url }}"><img src="{{ social.icon }}" alt="{{ social.name }}" /></a></li>
+        {% endfor %}
+    </ul>
+</div>
