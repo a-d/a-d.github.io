@@ -27,15 +27,12 @@
 
 <article id="article-{{ include.id }}" class="{{ boxSize }}">
 
-  <header>
-      {{ post.title }}
-      {% if post.gig %}
-        <time pubdate="pubdate" datetime="{{ post.gig | date: "%Y-%m-%d" }}">{{ post.gig | date: "%d.%m.%Y" }}</time>
-      {% endif %}
-  </header>
-  <section>
+  <header>{{ post.title }}</header>
 
-    {{ post.content }}
+  {% if post.gig %}
+  <time pubdate="pubdate" datetime="{{ post.gig | date: "%Y-%m-%d" }}">{{ post.gig | date: "%d.%m.%Y" }}</time>
+  {% endif %}
 
-  </section>
+  <section>{{ post.content }}</section>
+
 </article>

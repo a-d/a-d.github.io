@@ -59,3 +59,6 @@ title: Deaf Wolf
 description: "Logbuch des Kapitäns"
 source: ./
 destination: web
+
+plugins:
+  - jekyll-loading-lazy

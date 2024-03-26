@@ -350,8 +350,15 @@ article > section img:nth-of-type(4n+3) {
   border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
   transform: rotate(2deg);
 }
-
-
+article > time {
+  position: absolute;
+  z-index: 1;
+  bottom: 4.5em;
+  right: 3em;
+}
+article > section a:hover {
+  text-decoration:underline;
+}
 main > section {
   display: none;
 }
@@ -391,7 +398,7 @@ ul.social a:after {
   height: 100%;
 }
 ul.social a:hover {
-  opacity 1;
+  opacity: 1;
 }
 ul.social, ul.social > li {
   display: inline-block;
