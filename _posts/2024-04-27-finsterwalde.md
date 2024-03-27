@@ -2,7 +2,7 @@
 title: "Richtig Kino in Finsterwalde"
 date: 2024-03-27 19:00:00 +0000
 chapter: news
-gig: 2024-04-30 19:00:00 +0200
+gig: 2024-04-27 19:00:00 +0200
 section: 3
 priority: 2
 tags:
@@ -15,7 +15,7 @@ box:
     size: 40
 ---
 
-Ein Wolf im Walde, dieses mal Finsterwalde.
+Ein Wolf im Walde, dieses Mal Finsterwalde.
 Doch ein Wolf kommt selten allein, auch nicht nur zu dritt.
 Denn hier kommt **[SAMAVAYO](https://samavayo.bandcamp.com/)**!
 
@@ -33,6 +33,6 @@ Geheimtipp.
 
 
 Los gehts!
-* **Event:** [ZUKUNFT](https://www.facebook.com/events/1751127172937594/)
-* **Standort:** Laskerstraße, Berlin, Germany
-* **Startzeit:** 30.04.2023 um 19 Uhr
+* **Event:** [Kino Finsterwalde](https://www.facebook.com/events/1312960419376413/)
+* **Standort:** Karl-Marx-Straße 8, 03238 Finsterwalde, Germany
+* **Startzeit:** 27.04.2024 um 20:30 Uhr
