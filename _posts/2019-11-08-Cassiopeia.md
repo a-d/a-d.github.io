@@ -10,7 +10,7 @@ tags:
 box:
   size: 4
   image:
-    src: content-images/2019-11-09.jpg
+    src: content-images/2019-11-08.jpg
     position: left
     size: 40
 ---

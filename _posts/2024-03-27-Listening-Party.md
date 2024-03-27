@@ -2,7 +2,6 @@
 title: "Listening Party"
 date: 2024-03-27-30 19:00:00 +0000
 chapter: news
-gig: 2024-03-27 19:00:00 +0200
 section: 3
 priority: 2
 tags:
@@ -18,6 +17,7 @@ Mit ausgewählten Freunden und Feinden hören wir gemeinsam ins kommende Album.
 Sind die Songs gut? Sind sie ~schlecht~ sehr gut? Lasst es uns besprechen im Live chat!
 
 Wer in zukunft keine freshen Events verpassen möchte, dem sei ein Abbonement unserer Bandcamp Page empfohlen:
-https://deafwolf.bandcamp.com/
+
+[https://deafwolf.bandcamp.com/](https://deafwolf.bandcamp.com/)
 
 Kostenlos und ohne Gewehr.

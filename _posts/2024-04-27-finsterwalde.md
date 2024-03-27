@@ -1,8 +1,8 @@
 ---
 title: "Richtig Kino in Finsterwalde"
-date: 2024-04-27 19:00:00 +0000
+date: 2024-03-27 19:00:00 +0000
 chapter: news
-gig: 2024-04-27 19:00:00 +0200
+gig: 2024-04-30 19:00:00 +0200
 section: 3
 priority: 2
 tags:

@@ -321,9 +321,10 @@ main > section > figure::before {
 main > section > figure > img,
 article > section img {
   max-width: 100%;
-  min-width: 70%;
+  min-width: 50%;
   border-style: solid;
   background-color: #000;
+  max-height: 60vh;
 }
 main > section > figure:nth-of-type(4n+0) > img,
 article > section img:nth-of-type(4n+0) {
