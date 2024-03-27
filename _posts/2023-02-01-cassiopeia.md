@@ -21,7 +21,7 @@ Kommt vorbei und lasst euch überzeugen!
 
 Karten gibt's bei Koka und Eventim.
 
-**Vorgestellt:** Dirty Sound Magnet
+**Vorgestellt:** [DIRTY SOUND MAGNET](https://www.facebook.com/dirtysoundmagnet)
 
 > Nach über 300 Shows in ganz Europa, zwei Studioalben und einem Live-Album seit 2017, wird das Schweizer Vintage Psych-Rock-Power-Trio DIRTY SOUND MAGNET, Cassiopeia für dich Rocken!
 Die Band hat gerade den award "bester schweizer rock live act" gewonnen! Es wird heiß...

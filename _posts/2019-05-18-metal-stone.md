@@ -34,7 +34,7 @@ Mit dabei sind drei vorzügliche Bands die euch wieder aufbauen, nachdem wir euc
 **Vorgestellt:** [GORILLA MONSOON](https://www.facebook.com/gorillamonsoonhellrockinc) (Stoner Metal / Dresden)
 > Kompromissloser, unverkennbarer und tonnenschwerer Old School Southern Death n Roll Stoner Doom Metal!
 
-**Vorgestellt:** [HELL IN THE SKIES](https://www.facebook.com/hellintheskies/) (Heavy Stoner Metal / Eberswalde)<
+**Vorgestellt:** [HELL IN THE SKIES](https://www.facebook.com/hellintheskies/) (Heavy Stoner Metal / Eberswalde)
 > In several religions it is taught, that fallen angels followed the devil out of heaven unto earth. Until this time these former prophets of god rule the realm of earth secretly, in the shape of heavenly-evil appearances and forces. Now some of them arise! A musical rebellion on behalf of satan has just begun. A heavy and intense metal experience – 666% real and authentic.
 
 **Vorgestellt:** [VAYL](https://www.facebook.com/vaylrock) (Stoner Metal / Berlin)

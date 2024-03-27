@@ -25,7 +25,7 @@ An dem Tag spielen wir zum ersten Mal Songs exklusiv vor Release unseres Albums:
 Geheimtipp.
 
 
-**Vorgestellt:** SAMAVAYO
+**Vorgestellt:** [SAMAVAYO](https://samavayo.bandcamp.com/)
 
 > Die Lausbuben haben diesmal nicht nur ihre aktuelle Scheibe PAYAN dabei, sondern noch frischer:
 > Eine Neuauflage ihrer allerersten Scheibe von 2005: _Death.March.Melodies_!
