@@ -356,6 +356,7 @@ article > time {
   z-index: 1;
   bottom: 4.5em;
   right: 3em;
+  color #bcdbea;
 }
 article > section a:hover {
   text-decoration:underline;
