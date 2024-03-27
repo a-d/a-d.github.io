@@ -16,9 +16,9 @@ Wie geil ist das denn!
 Seid dabei: zusammen mit **[BAD BONE BEAST](https://www.facebook.com/badbonebeast)** heizen wir die Crowd so richtig ein!
 Spektakel, Klang und Heiterkeit.
 
-**Daily Thompsons**
+**Vorgestellt:** Daily Thompsons
 
-Kaum ein Jahr nachdem DAILY THOMPSON ihr Album „Oumuamua“ veröffentlicht haben, legen sie den nächsten Longplayer auf den Plattenteller. War der Vorgänger noch heavy, spacig und hypnotisch, hat „God Of Spinoza“ weitere Nuancen in der Klangpalette. Tiefenentspannt schleicht sich 90er Jahre Alternativerock in den schweren Fuzz-Psychedelic-Blues. Pixies, Dinosaur jr oder Sonic Youth werden in 5, 6 Minuten Tracks zermalmt und durch den Big Muff Super Fuzz gejagd. Unter den "Schönheiten des Monats" im Visions Magazin Dez.2021, Tipps des Monats im Classic Rock Magazin, 8 von 10 im Rockhard.
+> Kaum ein Jahr nachdem DAILY THOMPSON ihr Album „Oumuamua“ veröffentlicht haben, legen sie den nächsten Longplayer auf den Plattenteller. War der Vorgänger noch heavy, spacig und hypnotisch, hat „God Of Spinoza“ weitere Nuancen in der Klangpalette. Tiefenentspannt schleicht sich 90er Jahre Alternativerock in den schweren Fuzz-Psychedelic-Blues. Pixies, Dinosaur jr oder Sonic Youth werden in 5, 6 Minuten Tracks zermalmt und durch den Big Muff Super Fuzz gejagd. Unter den "Schönheiten des Monats" im Visions Magazin Dez.2021, Tipps des Monats im Classic Rock Magazin, 8 von 10 im Rockhard.
 
 Los gehts!
 * **Event:** [Cassiopeia Berlin](https://www.facebook.com/events/616895892725632/)

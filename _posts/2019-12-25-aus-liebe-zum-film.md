@@ -14,7 +14,7 @@ box:
 ---
 
 Starkes Jahr!
-Nicht nur gab es Deaf Flow im Radiointerview zu hören sondern auch im TV zu sehen.
+Nicht nur gab es Deaf Flow im Radiointerview zu hören, sondern auch im TV zu sehen.
 Wo wir in Ersterem noch unsere Begeisterung für die klassischen Godzilla Filmen ausdrückten, dürfen wir es nun unter Beweis stellen:
 Wir haben das Privileg beim sympathischen Sender **Tele 5** zum Godzilla Triple-Neujahrs-Special gefeatured zu werden, mit unserem Sound und Bild.
 Da passt die Faust auf's Auge.

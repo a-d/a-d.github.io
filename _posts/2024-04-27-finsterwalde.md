@@ -25,9 +25,11 @@ An dem Tag spielen wir zum ersten Mal Songs exklusiv vor Release unseres Albums:
 Geheimtipp.
 
 
-**SAMAVAYO**
-Die Lausbuben haben diesmal nicht nur ihre aktuelle Scheibe PAYAN dabei sondern noch frischer: Eine Neuauflage ihrer aller ersten Scheibe von 2005: _Death.March.Melodies_!
-Mit neuem Master und neuem Artwork und natürlich gibt's davon auch was auf die Ohren!
+**Vorgestellt:** SAMAVAYO
+
+> Die Lausbuben haben diesmal nicht nur ihre aktuelle Scheibe PAYAN dabei, sondern noch frischer:
+> Eine Neuauflage ihrer allerersten Scheibe von 2005: _Death.March.Melodies_!
+> Mit neuem Master und neuem Artwork und natürlich gibt's davon auch was auf die Ohren!
 
 
 Los gehts!

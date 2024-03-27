@@ -14,9 +14,9 @@ box:
 
 Na klar, auch an einem spontanen Mittwochabend kann man mal eine _Listening Party_ bei **BANDCAMP** veranstalten, oder?
 Mit ausgewählten Freunden und Feinden hören wir gemeinsam ins kommende Album.
-Sind die Songs gut? Sind sie ~schlecht~ sehr gut? Lasst es uns besprechen im Live chat!
+Sind die Songs gut? Oder sind sie _sehr gut_? Lasst es uns besprechen im Live chat!
 
-Wer in zukunft keine freshen Events verpassen möchte, dem sei ein Abbonement unserer Bandcamp Page empfohlen:
+Wer in zukunft keine freshen Events verpassen möchte, dem sei ein Abonnement unserer Bandcamp Page empfohlen:
 
 [https://deafwolf.bandcamp.com/](https://deafwolf.bandcamp.com/)
 

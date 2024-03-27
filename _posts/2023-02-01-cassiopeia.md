@@ -15,16 +15,16 @@ box:
 ---
 
 Erneut zieht es uns ins muckelige Cassiopeia.
-Dieses mal etwas experimenteller mit den Kollegen von **[DIRTY SOUND MAGNET](https://www.facebook.com/dirtysoundmagnet)**.
+Dieses Mal etwas experimenteller mit den Kollegen von **[DIRTY SOUND MAGNET](https://www.facebook.com/dirtysoundmagnet)**.
 Die Schweizer haben einen ganz abgefahrenen Sound und wir sind gespannt die Bühne mit ihnen zu teilen.
 Kommt vorbei und lasst euch überzeugen!
 
 Karten gibt's bei Koka und Eventim.
 
-**Dirty Sound Magnet**
+**Vorgestellt:** Dirty Sound Magnet
 
-Nach über 300 Shows in ganz Europa, zwei Studioalben und einem Live-Album seit 2017, wird das Schweizer Vintage Psych-Rock-Power-Trio DIRTY SOUND MAGNET, Cassiopeia für dich Rocken!
-Die band hat gerade den award "bester schweizer rock live act" gewonnen! Es wird heiß...
+> Nach über 300 Shows in ganz Europa, zwei Studioalben und einem Live-Album seit 2017, wird das Schweizer Vintage Psych-Rock-Power-Trio DIRTY SOUND MAGNET, Cassiopeia für dich Rocken!
+Die Band hat gerade den award "bester schweizer rock live act" gewonnen! Es wird heiß...
 
 Los gehts!
 * **Event:** [Cassiopeia Berlin](https://www.facebook.com/events/3307670722838515/)

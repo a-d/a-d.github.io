@@ -15,10 +15,10 @@ box:
     size: 40
 ---
 
-Auch in der Lockdown-Zeit macht powert das Wild At Heart in Berlin den Rock durch die Röhren.
+Auch in der Lockdown-Zeit powert das Wild At Heart in Berlin den Rock durch die Röhren.
 Dieses Mal aber in einer ganz besonderen Form.
 Am 19. August geben wir ein Konzert vor Ort, welches live in eure Stube übertragen wird.
-In der 58sten Ausgabe von "Wild At Heart TV" dürfen wir unsere Set präsentieren.
+In der 58sten Ausgabe von "Wild At Heart TV" dürfen wir unser Set präsentieren.
 Verpasst auch unser Interview nicht!
 Big announcements coming!
 
