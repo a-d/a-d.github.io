@@ -325,6 +325,7 @@ article > section img {
   border-style: solid;
   background-color: #000;
   max-height: 60vh;
+  min-height: 18vh;
 }
 main > section > figure:nth-of-type(4n+0) > img,
 article > section img:nth-of-type(4n+0) {
@@ -340,7 +341,6 @@ article > section img:nth-of-type(4n+1) {
 }
 main > section > figure:nth-of-type(4n+2) > img,
 article > section img:nth-of-type(4n+2) {
-  width:350px;
   border-width: 0.2em 0.2em 0.3em 0.3em;;
   border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
   transform: rotate(-2deg);
@@ -356,7 +356,7 @@ article > time {
   z-index: 1;
   bottom: 4.5em;
   right: 3em;
-  color #bcdbea;
+  color: #bcdbea;
 }
 article > section a:hover {
   text-decoration:underline;
