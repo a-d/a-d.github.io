@@ -8,8 +8,6 @@ tags:
   - news
 box:
   size: 4
-  image:
-    src: content-images/2024-03-27-Listening-Party.jpg
 ---
 
 Na klar, auch an einem spontanen Mittwochabend kann man mal eine _Listening Party_ bei **BANDCAMP** veranstalten, oder?
@@ -20,4 +18,6 @@ Wer in zukunft keine freshen Events verpassen möchte, dem sei ein Abonnement un
 
 [https://deafwolf.bandcamp.com/](https://deafwolf.bandcamp.com/)
 
-Kostenlos und ohne Gewehr.
+Wie immer kostenlos und ohne Gewehr.
+
+[![Listening Party](content-images/2024-03-27-Listening-Party.jpg)](https://deafwolf.bandcamp.com/)
