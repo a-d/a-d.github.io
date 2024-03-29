@@ -410,7 +410,17 @@ ul.social, ul.social > li {
   line-height: 100%;
 }
 
+/* custom news date */
+
 #news article time {
   color: #5f8799;
   font-family:Bangers;
+}
+
+/* custom gallery style */
+
+#gallery p > img {
+  width: 45%;
+  min-width: auto;
+  vertical-align: middle;
 }
