@@ -415,7 +415,7 @@ ul.social, ul.social > li {
 
 /* custom gallery style */
 
-#gallery p > img {
+#gallery p > img, #shop p > a > img {
   width: 45%;
   min-width: auto;
   vertical-align: middle;
