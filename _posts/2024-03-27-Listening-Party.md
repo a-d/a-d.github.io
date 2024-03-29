@@ -1,6 +1,6 @@
 ---
 title: "Listening Party"
-date: 2024-03-27-30 19:00:00 +0000
+date: 2024-03-27 19:00:00 +0000
 chapter: news
 section: 3
 priority: 2
