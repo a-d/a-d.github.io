@@ -21,25 +21,25 @@ header:
       url: https://deafwolf.bandcamp.com/
       icon: 2020/images/bandcamp-button-bc-circle-black-128.png
       priority: 1
-    - name: laut.de
-      url: http://www.laut.de/Deaf-Flow
-      icon: 2020/images/laut_logo_400x400.png
-      priority: 1
-    - name: Songick
-      url: https://www.songkick.com/artists/10322687-deaf-wolf
-      icon: 2024/images/songkick.svg
-    - name: Instagram
-      url: https://www.instagram.com/deafwolf_rocks/
-      icon: 2024/images/instagram.png
     - name: Linktree
       url: https://linktr.ee/deafwolf
       icon: 2024/images/linktree.svg
+    - name: Instagram
+      url: https://www.instagram.com/deafwolf_rocks/
+      icon: 2024/images/instagram.png
     - name: YouTube
       url: https://www.youtube.com/@MrDeafWolf
       icon: 2024/images/youtube.png
     - name: Spotify
       url: https://open.spotify.com/artist/6cp45mlXkzgtor8bGozNOB
       icon: 2024/images/spotify.png
+    - name: Songick
+      url: https://www.songkick.com/artists/10322687-deaf-wolf
+      icon: 2024/images/songkick.svg
+    - name: laut.de
+      url: http://www.laut.de/Deaf-Flow
+      icon: 2020/images/laut_logo_400x400.png
+      priority: 1
 
 
 # gems:
