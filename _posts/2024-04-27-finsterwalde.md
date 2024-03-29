@@ -1,5 +1,5 @@
 ---
-title: "Richtig Kino in Finsterwalde"
+title: "Release Tour: Finsterwalde"
 date: 2024-03-27 19:00:00 +0000
 chapter: news
 gig: 2024-04-27 19:00:00 +0200
@@ -21,7 +21,7 @@ Denn hier kommt **[SAMAVAYO](https://samavayo.bandcamp.com/)**!
 
 Say what?!
 Ganz richtig gelesen, _Deaf Wolf_ meets _Samavayo_!
-An dem Tag spielen wir zum ersten Mal Songs exklusiv vor Release unseres Albums: "Not Today, Satan!"
+An dem Tag spielen wir zum ersten Mal Songs exklusiv vom neuen Albums: "Not Today, Satan!"
 Geheimtipp.
 
 

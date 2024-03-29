@@ -34,15 +34,25 @@ layout: compress
   {% include html-comic-social.html %}
 
   <script>
-  var a = new Date(); a.setDate(a.getDate()-1); a = a.toISOString().split("T")[0];
-  let b = Array.from(document.getElementById("show").getElementsByTagName("article"))
-            .findLast(p => Array.from(p.getElementsByTagName("time"))
-              .find(q => q.getAttribute("datetime") >= a));
-  if( b ) {
-    let txt = document.createElement("h1");
-    txt.innerHTML = "Old Gigs";
-    b.parentNode.insertBefore(txt, b.nextSibling);
-  }
+    /* insert "separator" for gigs */
+    var a = new Date(); a.setDate(a.getDate()-1); a = a.toISOString().split("T")[0];
+    let upcoming = Array.from(document.getElementById("show").getElementsByTagName("article"))
+              .filter(p => Array.from(p.getElementsByTagName("time"))
+                .find(q => q.getAttribute("datetime") >= a));
+
+    if( upcoming.length>0 ) {
+      let old = document.createElement("h1");
+      old.innerHTML = "Old Gigs";
+      upcoming[0].parentNode.insertBefore(old, upcoming[upcoming.length-1].nextSibling);
+
+      /* reorder gigs */
+      for(i=0; i<upcoming.length-1; i++) {
+        var prev = upcoming[i].previousElementSibling;
+        if(prev) { old.before(prev); }
+        old.before(upcoming[i]);
+        old = prev || upcoming[i];
+      }
+    }
   </script>
   </body>
 </html>

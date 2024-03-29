@@ -1,5 +1,5 @@
 ---
-title: "Release Tour: Junction Bar"
+title: "Release Tour: Berlin"
 date: 2024-03-27 19:00:00 +0000
 chapter: news
 gig: 2024-05-08 20:30:00 +0200
