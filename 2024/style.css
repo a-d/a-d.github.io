@@ -38,15 +38,11 @@ body:before {
   z-index:-1;
 }
 
-#center > img {
+img.center {
   margin: 1em auto 3em auto;
   width: calc(100% - 1em);
   height: calc(100% - 4em);
   filter: drop-shadow(#345a6c 0.5rem 0.5rem 1rem);
-  opacity: 80%;
-}
-#center > img:hover {
-  opacity: 100%;
 }
 
 /* navigation */
