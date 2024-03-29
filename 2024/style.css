@@ -288,11 +288,11 @@ main > section > h1 {
   font-family: "Bangers";
   margin: 0.5em 0 0.2em 0;
   text-shadow: -1px -1px #30fe9d, 1px 1px #4a30fe, 2px 2px #30feeb, 0em 0em 0.5em #30befe;
-  -webkit-transform: rotate(-10deg) skew(-10deg, 0);
-  -moz-transform: rotate(-10deg) skew(-10deg, 0);
-  -ms-transform: rotate(-10deg) skew(-10deg, 0);
-  -o-transform: rotate(-10deg) skew(-10deg, 0);
-  transform: rotate(-10deg) skew(-10deg, 0);
+  -webkit-transform: rotate(-5deg) skew(-10deg, 0);
+  -moz-transform: rotate(-5deg) skew(-10deg, 0);
+  -ms-transform: rotate(-5deg) skew(-10deg, 0);
+  -o-transform: rotate(-5deg) skew(-10deg, 0);
+  transform: rotate(-5deg) skew(-10deg, 0);
   padding-bottom: 50px;
   width: 100%;
   font-size:5em;
@@ -408,4 +408,9 @@ ul.social, ul.social > li {
   padding: 0;
   height: 100%;
   line-height: 100%;
+}
+
+#news article time {
+  color: #5f8799;
+  font-family:Bangers;
 }

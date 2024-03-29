@@ -31,6 +31,9 @@
 
   {% if post.gig %}
   <time pubdate="pubdate" datetime="{{ post.gig | date: "%Y-%m-%d" }}">{{ post.gig | date: "%d.%m.%Y" }}</time>
+
+  {% elsif post.tags contains 'news' %}
+  <time pubdate="pubdate" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d.%m.%Y" }}</time>
   {% endif %}
 
   <section>{{ post.content }}</section>
