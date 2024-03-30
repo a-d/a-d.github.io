@@ -13,6 +13,10 @@ box:
 
 **"Hast du Angst vor'm bösen Wolf?"**
 
+Upcoming release:
+* [05.04.2024 auf Bandcamp](https://deafwolf.bandcamp.com/album/not-today-satan-album)
+* [19.04.2024 auf Spotify](https://open.spotify.com/artist/6cp45mlXkzgtor8bGozNOB)
+
 {% include player-bandcamp.html
   id="2816891239"
   slag="not-today-satan"

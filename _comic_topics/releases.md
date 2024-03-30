@@ -1,6 +1,6 @@
 ---
 slag: release
-name: releases
+name: Music
 description: Deaf Records
 priority: 4
 ---
