@@ -11,7 +11,6 @@ tags:
 _"Krachend laute Musik gegen den Lärm einer zusammenbrechenden Welt"_ - nach diesem
 Motto lebt das Berliner Trio **Deaf Wolf** seit über zehn Jahren. In dieser Zeit hat die Band
 vier Tonträger veröffentlicht, über 100 Konzerte gespielt und sich nur einmal umbenannt.
-2023 wurde aus **Deaf Flow ➜ Deaf Wolf** ... nicht nur, weil der Name leichter von der Zunge geht.
-
-**Deaf Wolf** markiert auch den Beginn eines neuen wichtigen Abschnitts.
-In Produktion, Sound und Kreativität wurde hier ein neuer Meilenstein genommen.
+2023 wurde aus **Deaf Flow ➜ Deaf Wolf**. Nicht nur, weil der Name leichter von der Zunge geht.
+Er markiert auch den Beginn eines neuen wichtigen Abschnitts.
+In Produktion, Sound und Kreativität wurde hier ein neuer Meilenstein gesetzt.
