@@ -301,7 +301,7 @@ main > section > figure {
   width: auto;
 }
 main > section > figure::before {
-  font-family: "Special Elite", cursive;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   content:attr(alt);
   position: absolute;
   margin-top: 1rem;
