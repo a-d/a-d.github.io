@@ -6,7 +6,7 @@ layout: html-gojira
 
       <section id="{{ chapter.slag }}">
         <h2>{{ chapter.description[0].generic | upcase }}</h2>
-    {% assign postsInChapter = site.posts | where_exp:"post","post.chapter == chapter.slag" | sort:"section" | reverse %}
+    {% assign postsInChapter = site.posts | where_exp:"post","post.chapter == chapter.slag" | sort:"priority" | sort:"section" | reverse %}
     {% for post in postsInChapter %}
         {%- capture articleId  -%}{{ chapter.slag }}-{{ post.section }}-{{ post.priority }}{%- endcapture -%}
         {%- include html-gojira-article.html id=articleId -%}
