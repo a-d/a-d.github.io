@@ -26,7 +26,7 @@ Der perfekte Sturm!
 
 > Die Berliner Band Birgit Jones bietet einen Musikmix aus augenzwinkernder Lyrik, bombastischen Bässen und rockigen Riffs, der die Ketten des Alternative Rock sprengt und die Geburtsstunde des Post-Glam-Doom markiert. Birgit kaut nicht auf einer Portion dröger Probleme mit dem Patriarchat herum - sie weist es mit ihrer Teflon-beschichteten Attitüde einfach von sich. Ihre größte Waffe ist Witz in der wasserdichten Rüstung des Rock 'n' Roll.
 
-![Birgit Jones & Deaf Wolf](2024-05-08-deaf-jones.jpg)
+![Birgit Jones & Deaf Wolf](content-images/2024-05-08-deaf-jones.jpg)
 
 Los gehts!
 * **Event:** [Junction Bar](https://www.facebook.com/events/1069504274255751/)
