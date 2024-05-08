@@ -13,6 +13,9 @@ header:
     - Stoner Ear Candy Rock
     - zwischen heavy und catchy!
   social:
+    - name: Spotify
+      url: https://open.spotify.com/artist/6cp45mlXkzgtor8bGozNOB
+      icon: 2024/images/spotify.png
     - name: Facebook
       url: https://www.facebook.com/deafwolfrocks/
       icon: 2020/images/facebook.png
@@ -30,9 +33,6 @@ header:
     - name: YouTube
       url: https://www.youtube.com/@MrDeafWolf
       icon: 2024/images/youtube.png
-    - name: Spotify
-      url: https://open.spotify.com/artist/6cp45mlXkzgtor8bGozNOB
-      icon: 2024/images/spotify.png
     - name: Songick
       url: https://www.songkick.com/artists/10322687-deaf-wolf
       icon: 2024/images/songkick.svg
