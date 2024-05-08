@@ -31,6 +31,13 @@ Geheimtipp.
 > Eine Neuauflage ihrer allerersten Scheibe von 2005: _Death.March.Melodies_!
 > Mit neuem Master und neuem Artwork und natürlich gibt's davon auch was auf die Ohren!
 
+**Update:** Wir übernehmen auch den Support in Luckenwalde.
+Als gern gesehener Gast des Alhambras, sagen wir da natürlich nicht _nein_.
+Wir sehen uns!
+
+**Update:** Gute Laune, Spaß und Hörgenuss. Grüße gehen raus an unsere Buddies von Samavayo!
+
+![Samavayo und Deaf Wolf](content-images/2024-04-27-band.jpg)
 
 Los gehts!
 * **Event:** [Kino Finsterwalde](https://www.facebook.com/events/1312960419376413/)
