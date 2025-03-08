@@ -10,7 +10,7 @@ tags:
 box:
   size: 4
   image:
-    src: content-images/2025-03-07-rockcity.png
+    src: content-images/2025-03-08-planetzeus.png
 ---
 
 ... da sollte man schon dabei gewesen sein!
