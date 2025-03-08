@@ -10,7 +10,7 @@ tags:
 box:
   size: 4
   image:
-    src: content-images/2025-03-08-planetzeus.png
+    src: content-images/2025-03-08-planetzeus.jpg
 ---
 
 ... da sollte man schon dabei gewesen sein!
