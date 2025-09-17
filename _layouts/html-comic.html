@@ -53,6 +53,15 @@ layout: compress
         old = prev || upcoming[i];
       }
     }
+
+    // Make links open in new tabs, when href starts with "http"
+    const externalLinks = document.querySelectorAll('a[href^="http"]');
+    externalLinks.forEach(link => {
+      if (!link.hasAttribute('target')) {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      }
+    });
   </script>
   </body>
 </html>
